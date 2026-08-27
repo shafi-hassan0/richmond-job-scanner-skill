@@ -1,0 +1,96 @@
+{
+  "companies": [
+    {
+      "name": "CoStar Group",
+      "careers_url": "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus",
+      "ats": "Workday",
+      "search_hint": "CoStar Group software engineer OR QA OR \"quality assurance\" OR SDET Richmond VA site:costar.wd1.myworkdayjobs.com"
+    },
+    {
+      "name": "Dominion Energy",
+      "careers_url": "https://careers.dominionenergy.com",
+      "ats": "SAP SuccessFactors",
+      "search_hint": "Dominion Energy software engineer OR QA OR \"quality assurance\" OR test engineer Richmond VA site:careers.dominionenergy.com"
+    },
+    {
+      "name": "Honeywell",
+      "careers_url": "https://careers.honeywell.com",
+      "ats": "Oracle Cloud HCM",
+      "search_hint": "Honeywell software engineer OR \"test engineer\" OR QA Richmond VA jobs"
+    },
+    {
+      "name": "CapTech Consulting",
+      "careers_url": "https://careers.smartrecruiters.com/CapTechConsulting",
+      "ats": "SmartRecruiters",
+      "search_hint": "CapTech Consulting software engineer OR \"test automation\" OR QA Richmond VA site:careers.smartrecruiters.com"
+    },
+    {
+      "name": "Atlantic Casualty Insurance",
+      "careers_url": "https://www.atlanticcasualty.net/about-acic/our-careers/",
+      "ats": "ADP Workforce Now",
+      "search_hint": "Atlantic Casualty Insurance software engineer OR QA jobs Richmond VA",
+      "notes": "HQ is actually Goldsboro, NC; Richmond is a satellite office. Postings volume is low."
+    },
+    {
+      "name": "Richmond National",
+      "careers_url": "https://richmondnational.com/careers/",
+      "ats": "ApplyToJob",
+      "search_hint": "\"Richmond National\" insurance software engineer OR QA OR developer jobs Glen Allen VA",
+      "notes": "Insurance underwriter in Glen Allen, VA. Historically posts underwriting/claims/actuarial roles, not tech — kept per user request in case that changes."
+    },
+    {
+      "name": "Capital One",
+      "careers_url": "https://www.capitalonecareers.com",
+      "ats": "Workday",
+      "search_hint": "Capital One software engineer OR QA OR SDET Richmond VA West Creek site:capitalone.wd1.myworkdayjobs.com"
+    },
+    {
+      "name": "CarMax",
+      "careers_url": "https://careers.carmax.com",
+      "ats": "Workday",
+      "search_hint": "CarMax software engineer OR QA OR \"quality engineer\" Richmond VA site:careers.carmax.com"
+    },
+    {
+      "name": "Markel",
+      "careers_url": "https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers",
+      "ats": "Workday",
+      "search_hint": "Markel software engineer OR QA OR \"quality engineering\" Richmond VA Glen Allen site:markelcorp.wd5.myworkdayjobs.com"
+    },
+    {
+      "name": "Genworth Financial",
+      "careers_url": "https://gnw.wd1.myworkdayjobs.com/GNW",
+      "ats": "Workday",
+      "search_hint": "Genworth software engineer OR QA OR SDET Richmond VA site:gnw.wd1.myworkdayjobs.com"
+    },
+    {
+      "name": "Altria Group",
+      "careers_url": "https://careers.altria.com/talent",
+      "ats": "SAP SuccessFactors",
+      "search_hint": "Altria software engineer OR \"software developer\" OR QA Richmond VA technology jobs"
+    },
+    {
+      "name": "WestRock (Smurfit WestRock)",
+      "careers_url": "https://jobs.westrock.com",
+      "ats": "Workday / Avature (verify — ATS may be in transition post Smurfit Kappa merger)",
+      "search_hint": "WestRock OR \"Smurfit WestRock\" software engineer OR QA Richmond VA jobs"
+    },
+    {
+      "name": "Elephant Insurance",
+      "careers_url": "https://jobs.elephant.com/vacancies/",
+      "ats": "Unconfirmed (own portal)",
+      "search_hint": "Elephant Insurance software engineer OR QA OR \"quality assurance analyst\" Richmond VA jobs"
+    },
+    {
+      "name": "Snagajob",
+      "careers_url": "https://www.snagajob.com/about/careers",
+      "ats": "Unconfirmed (likely custom)",
+      "search_hint": "Snagajob software engineer OR QA jobs Glen Allen VA Richmond"
+    },
+    {
+      "name": "Performance Food Group",
+      "careers_url": "https://jobs.performancefoodservice.com",
+      "ats": "Unconfirmed",
+      "search_hint": "\"Performance Food Group\" software engineer OR QA OR developer jobs Richmond Goochland VA"
+    }
+  ]
+}
