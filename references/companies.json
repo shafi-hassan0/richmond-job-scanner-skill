@@ -204,15 +204,6 @@
       "verified_example": null
     },
     {
-      "name": "Snagajob",
-      "ats": "Greenhouse (currently broken)",
-      "official_domains": ["www.snagajob.com", "boards.greenhouse.io"],
-      "careers_url": "https://www.snagajob.com/about/careers",
-      "method": "broken_verify_manually",
-      "notes": "www.snagajob.com is behind bot-protection that blocks plain curl (403) - had to use a JS-context browser fetch. Their own careers page's Angular app calls https://api.greenhouse.io/v1/boards/snagajob/jobs to populate the 'Open positions' widget, and that call returns a live HTTP 404 - confirmed both by calling it directly and by watching Snagajob's OWN page throw the same 404 in its console. The board token 'snagajob' does not exist on Greenhouse's public API (tried several plausible token variants, all 404). This means Snagajob's careers page is currently not surfacing ANY open positions through its intended mechanism - not a scanner problem, a bug on their end. Recommend either dropping this company from the watch list or re-checking periodically by hand until they fix their board integration; there is currently no reliable automated method.",
-      "verified_example": null
-    },
-    {
       "name": "Performance Food Group",
       "ats": "Likely IBM Kenexa BrassRing behind a Radancy-style career site (job IDs follow BrassRing's 'NNNNNNBR' format; exact vendor not fully confirmed)",
       "official_domains": ["jobs.performancefoodservice.com", "www.pfgc.com"],

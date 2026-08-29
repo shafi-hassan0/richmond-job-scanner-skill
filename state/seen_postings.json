@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-29T14:08:53Z",
+  "last_run": "2026-08-27T00:00:00Z",
   "companies": {
     "CoStar Group": [
       {"title": "Associate Software Engineer", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus/job/Associate-Software-Engineer---Richmond--VA_R36970", "first_seen": "2026-08-27"},
@@ -9,27 +9,16 @@
     ],
     "Dominion Energy": [],
     "Honeywell": [
-      {"title": "Software Engineer I", "location": "Richmond, VA (hybrid)", "url": "https://www.ziprecruiter.com/c/Honeywell/Job/Software-Engineer-I/-in-Richmond,VA?jid=91cb1ef8c84cfc75", "first_seen": "2026-08-29"},
-      {"title": "Senior Advanced Test Engineer", "location": "Richmond, VA (hybrid)", "url": "https://www.indeed.com/q-honeywell-software-test-engineer-jobs.html", "first_seen": "2026-08-29", "note": "Exact posting URL not captured by search; verify current listing at careers.honeywell.com"}
+      {"title": "Senior Advanced Software Engineer (Tridium Niagara Framework)", "location": "Richmond, VA (hybrid)", "url": "https://www.indeed.com/q-honeywell-software-test-engineer-jobs.html", "first_seen": "2026-08-27", "note": "Exact posting URL not captured by search; verify current listing at careers.honeywell.com"}
     ],
-    "CapTech Consulting": [
-      {"title": "Quality Assurance Manager", "location": "Richmond, VA", "url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000099647095-quality-assurance-manager-", "first_seen": "2026-08-29"},
-      {"title": "Senior QA and Accessibility Consultant", "location": "Richmond, VA", "url": "https://www.themuse.com/jobs/captech/senior-qa-and-accessibility-consultant", "first_seen": "2026-08-29"},
-      {"title": "Contract Quality Assurance Analyst", "location": "Richmond, VA", "url": "https://www.themuse.com/jobs/captech/contract-quality-assurance-analyst", "first_seen": "2026-08-29"},
-      {"title": "Consulting Internship: Software Engineering (Summer 2026)", "location": "Richmond, VA", "url": "https://builtin.com/job/consulting-internship-software-engineering-summer-2026/7272328", "first_seen": "2026-08-29", "note": "Internship"}
-    ],
+    "CapTech Consulting": [],
     "Atlantic Casualty Insurance": [
       {"title": "Software Engineer II", "location": "Glen Allen, VA", "url": "https://www.glassdoor.com/job-listing/software-engineer-ii-atlantic-casualty-insurance-company-JV_IC1130160_KO0,20_KE21,56.htm?jl=1009849045036", "first_seen": "2026-08-27"}
     ],
-    "Richmond National": [
-      {"title": "Sr. Software Engineer (Frontend)", "location": "Glen Allen, VA", "url": "https://www.theladders.com/job/sr-software-engineer-frontend-richmond-national-glen-allen-va_85870606", "first_seen": "2026-08-29"},
-      {"title": "Sr. ML Engineer", "location": "Glen Allen, VA", "url": "https://richmondnationalservices.applytojob.com/apply/SRzpUJwOIA/Sr-ML-Engineer", "first_seen": "2026-08-29"},
-      {"title": "Senior Software Engineer - Enterprise Apps", "location": "Glen Allen, VA", "url": "https://bebee.com/us/jobs/senior-software-engineer-enterprise-apps-on-site-va-richmond-national-group-glen-allen--lensa-7428_a8967ca7cbac0858f0aa70db6ead899cd532ff608a88ffd0b59efa2c090a03e6", "first_seen": "2026-08-29"}
-    ],
+    "Richmond National": [],
     "Capital One": [
       {"title": "Sr. Software Engineer (Full stack)", "location": "Richmond, VA (West Creek)", "url": "https://capitalone.wd1.myworkdayjobs.com/Capital_One/job/Richmond-VA/Sr-Software-Engineer--Full-stack-_R183889-1", "first_seen": "2026-08-27"},
-      {"title": "Lead Software Engineer, Back End (Remote-Eligible)", "location": "Richmond, VA (West Creek)", "url": "https://capitalone.wd1.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Lead-Software-Engineer--Back-End--Remote-Eligible-_R176512-1", "first_seen": "2026-08-27"},
-      {"title": "Senior Software Engineer, Back End", "location": "Richmond, VA (West Creek)", "url": "https://capitalone.wd1.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Senior-Software-Engineer--Back-End_R179659-1", "first_seen": "2026-08-29"}
+      {"title": "Lead Software Engineer, Back End (Remote-Eligible)", "location": "Richmond, VA (West Creek)", "url": "https://capitalone.wd1.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Lead-Software-Engineer--Back-End--Remote-Eligible-_R176512-1", "first_seen": "2026-08-27"}
     ],
     "CarMax": [
       {"title": "Software Engineer II - MDM", "location": "Richmond, VA", "url": "https://careers.carmax.com/us/en/job/JR-157876/Software-Engineer-II-MDM", "first_seen": "2026-08-27"},
@@ -48,16 +37,11 @@
       {"title": "Associate Software Engineer, Data", "location": "Richmond, VA", "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Richmond-VA/Associate-Software-Engineer--Data_R0017594-1", "first_seen": "2026-08-27"}
     ],
     "Genworth Financial": [
-      {"title": "Software Engineer", "location": "Richmond, VA", "url": "https://gnw.wd1.myworkdayjobs.com/GNW/job/Richmond-Virginia/Software-Engineer_REQ-260177", "first_seen": "2026-08-27"},
-      {"title": "Middleware Engineer", "location": "Richmond, VA", "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Middleware-Engineer_REQ-250053-2", "first_seen": "2026-08-29"},
-      {"title": "Full Stack Java Developer", "location": "Richmond, VA", "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Full-Stack-Java-Developer_REQ-250493", "first_seen": "2026-08-29"},
-      {"title": "Sr Java Developer", "location": "Richmond, VA", "url": "https://gnw.wd1.myworkdayjobs.com/es/GNW/job/Richmond-Virginia/Sr-Java-Developer_REQ-260075", "first_seen": "2026-08-29"},
-      {"title": "Senior Java Developer", "location": "Richmond, VA", "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Senior-Java-Developer_REQ-260215", "first_seen": "2026-08-29"}
+      {"title": "Software Engineer", "location": "Richmond, VA", "url": "https://gnw.wd1.myworkdayjobs.com/GNW/job/Richmond-Virginia/Software-Engineer_REQ-260177", "first_seen": "2026-08-27"}
     ],
     "Altria Group": [],
     "WestRock (Smurfit WestRock)": [],
     "Elephant Insurance": [],
-    "Snagajob": [],
     "Performance Food Group": []
   }
 }
