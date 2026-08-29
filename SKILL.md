@@ -9,15 +9,23 @@ Monitors a fixed list of Richmond, VA-area employers for new QA and Software Eng
 
 ## Company list
 
-The watch list lives in `references/companies.json`, one entry per company with a `careers_url`, `ats` (the applicant tracking system, e.g. Workday, SmartRecruiters — useful context for how to search it), and a `search_hint` (a pre-built search query). Edit this file directly to add or remove companies — don't hardcode a company list in this file. If the user asks to add a company, look up its actual careers URL yourself (via WebSearch) rather than guessing one; guessed URLs frequently 404 or point at the wrong company.
+The watch list lives in `references/companies.json`, one entry per company with `ats` (confirmed platform), `official_domains` (the allowlist for that company — see "Only trust the company's own site" below), a `method` (`workday_api`, `smartrecruiters_api`, `bamboohr_api`, `oracle_cloud_api`, `sap_rmk_api`, or `direct_url`), and either an `api` block (exact endpoint, HTTP method, headers, body template, and how to extract title/location/URL from the JSON response) or a `search_url`/`careers_url` plus `extraction` notes for HTML-based boards. Every entry was verified with a live HTTP request on 2026-08-29 — re-verify with the same method (see each entry's `notes`) rather than assuming a URL or facet ID stays valid forever, ATS vendors and tenant names do change (WestRock and CarMax both turned out to differ from earlier assumptions).
+
+Edit this file directly to add or remove companies — don't hardcode a company list in this file. If the user asks to add a company, find and verify its actual API/search URL yourself the same way this file was built (see "How to search each company" below) rather than guessing one; guessed URLs frequently 404 or point at the wrong company, and a WebSearch-only lookup tends to surface aggregator links (Indeed, ZipRecruiter, Glassdoor, etc.) instead of the company's own site.
+
+## Only trust the company's own site
+
+**Never surface a link from a third-party job aggregator** (Indeed, ZipRecruiter, Glassdoor, LinkedIn, TheLadders, BuiltIn, TheMuse, Jooble, SimplyHired, and similar) — these links rot fast and frequently point at expired or mismatched postings. Every URL in the report must resolve to a domain listed in that company's `official_domains` array in `companies.json`. If a search or fetch turns up a promising posting on a domain not in that list, either find the same posting on the company's own ATS (most listings are cross-posted) or drop it — don't include it.
 
 ## How to search each company
 
-Career sites for large employers (especially Workday-based ones — CoStar, Capital One, CarMax, Markel, Genworth) are JavaScript single-page apps. A plain fetch of the URL often returns an empty page shell with no job listings in the HTML, even though the site works fine in a browser. Because of this:
+Use each company's `method`/`api`/`search_url` from `companies.json` directly — this is faster and far more reliable than a generic web search, and it's what was actually tested when this file was built:
 
-1. **Prefer WebSearch using the `search_hint` for each company** rather than fetching `careers_url` directly. These search hints already combine the company, relevant job titles, and Richmond-area location terms, and many ATS platforms are well-indexed by search engines (they publish structured job-posting data for Google Jobs).
-2. If WebSearch results look thin, try WebFetch on `careers_url` as a supplement — it sometimes works for simpler/server-rendered career pages (e.g. CapTech's SmartRecruiters board, Atlantic Casualty's ADP page).
-3. Don't spend more than one WebSearch + one optional WebFetch per company — this is a broad sweep across 15 companies, not a deep dive into any one of them.
+1. **`workday_api` / `smartrecruiters_api` / `bamboohr_api` / `oracle_cloud_api` / `sap_rmk_api`** — call the documented `api.endpoint` with Bash (`curl`) or WebFetch, using the `body_template`/`query_params` given (swap in `"software engineer"`, `"QA"`, etc. as the search text, or drop the location facet to pull the full board and filter client-side). These return real JSON with no JS rendering needed — parse per the entry's `extraction` notes to get title, location, and a working job URL.
+2. **`direct_url`** — WebFetch the `search_url`/`careers_url`. These are confirmed server-rendered (real listings appear in the raw HTML) unless the entry's `notes` say otherwise (a few sites — elephant.com, snagajob.com, jobs.performancefoodservice.com — sit behind bot-protection that blocks a plain `curl` even though the same URL renders fine in a real browser; if WebFetch comes back blocked/empty for one of these, that's expected, not a sign the URL is wrong).
+3. Several ATS search boxes (Dominion, Capital One, Markel, Altria, CoStar) rank by relevance rather than doing a strict keyword AND — results can include unrelated engineering titles (electrical, mechanical) even when searching "software engineer". Always apply the title regex from "What counts as a match" below client-side; don't trust the API/page's own ranking as a filter.
+4. If a company's `method` is `broken_verify_manually` (currently only Snagajob), its automated path is confirmed non-functional on the company's own end — don't spend time retrying it each run; check by hand occasionally instead and mention its status in the report only if it changes.
+5. Don't fall back to WebSearch unless a company's documented method starts failing outright (e.g. the API starts 404ing/500ing) — and if you do, treat any result through the "Only trust the company's own site" filter above before including it.
 
 ## What counts as a match
 
@@ -66,6 +74,9 @@ If nothing new turned up anywhere, say that plainly in one line rather than an e
 
 ## Notes worth surfacing to the user
 
-- Richmond National is a small insurance underwriter with no confirmed tech hiring history — it's kept on the list at the user's request, but don't be surprised if it never produces a match.
-- Atlantic Casualty's actual HQ is Goldsboro, NC; Richmond is a satellite office, so posting volume there will be low.
-- ATS coverage for WestRock, Elephant Insurance, Snagajob, and Performance Food Group is unconfirmed/custom — if searches for these consistently return nothing, mention it so the user can decide whether to keep them or find a better source URL.
+- Richmond National actually has an active tech hiring history (confirmed live SWE/QA/ML openings as of 2026-08-29) — the earlier assumption that it never posts tech roles was wrong; don't be surprised either way run to run.
+- Atlantic Casualty's actual HQ is Goldsboro, NC; Richmond is a satellite office, so posting volume there will be low, and the ADP job list page doesn't show location — check the (JS-rendered) job detail page before counting a hit as Richmond-based.
+- WestRock has a plant literally called "North Richmond" — in Sydney, Australia. A location search on the word "Richmond" alone will pull those in; always confirm ", VA" / "Virginia" before counting a WestRock match.
+- Snagajob's own careers page is currently broken on their end (their embedded Greenhouse widget calls a board token that 404s, confirmed live on their own site) — there is no working automated method right now. Mention this to the user rather than silently reporting zero matches every run.
+- CoStar, Capital One, and CarMax's ATS tenant/site names differ from what you might guess (CoStar: `CoStarCareers` not `Costar_Campus`; Capital One: tenant `wd12` not `wd1`; CarMax: Workday, not Oracle Cloud as previously assumed) — use the values already recorded in `companies.json` rather than re-guessing.
+- Full company-by-company verification detail (API bodies, facet IDs, confirmed domains, what was tried and ruled out) lives in `references/companies.json` — read it before troubleshooting a company that stops returning results.

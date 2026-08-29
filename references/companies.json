@@ -1,96 +1,227 @@
 {
+  "_notes": "Rebuilt 2026-08-29. Every entry below was verified with a live HTTP request (curl or an in-browser fetch) on this date, not guessed. 'method' is the primary way to pull real listings; 'search_hint' is kept only as a last-resort fallback if the primary method ever breaks. Workday facet IDs are tenant-specific and were extracted from each tenant's own /jobs response — re-derive them the same way (POST with searchText:'Richmond' and grep the locations facet) if they ever stop matching, rather than reusing another tenant's ID.",
   "companies": [
     {
       "name": "CoStar Group",
-      "careers_url": "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus",
       "ats": "Workday",
-      "search_hint": "CoStar Group software engineer OR QA OR \"quality assurance\" OR SDET Richmond VA site:costar.wd1.myworkdayjobs.com"
+      "official_domains": ["costar.wd1.myworkdayjobs.com", "www.costar.com"],
+      "careers_url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers",
+      "method": "workday_api",
+      "api": {
+        "endpoint": "https://costar.wd1.myworkdayjobs.com/wday/cxs/costar/CoStarCareers/jobs",
+        "http_method": "POST",
+        "headers": {"Content-Type": "application/json"},
+        "body_template": {"appliedFacets": {"locations": ["b3bb4038c14510011ee9bdd013b70000", "9e3cea6b011410aa07d7d8401318eb48", "d8b70b94685e1000cc4ac7a883ff0000"]}, "limit": 20, "offset": 0, "searchText": "software engineer"},
+        "extraction": "response.jobPostings[]: title, locationsText, externalPath. Job URL = https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers + externalPath"
+      },
+      "richmond_location_facet_ids": {
+        "US-VA Richmond - CoStar Tower": "d8b70b94685e1000cc4ac7a883ff0000",
+        "US-VA Richmond": "9e3cea6b011410aa07d7d8401318eb48",
+        "Richmond (US) - Byrd Street 901 Tower": "b3bb4038c14510011ee9bdd013b70000"
+      },
+      "notes": "IMPORTANT: site name is 'CoStarCareers', not 'Costar_Campus' (that tenant exists but currently returns 0 jobs - it's an intern/campus-only board). Full-text searchText is fuzzy, not a strict AND - filter jobPostings client-side by title regex too.",
+      "verified_example": {"title": "Senior Software Engineer - Quality Engineering", "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/US-VA-Richmond---CoStar-Tower/Senior-Software-Engineer---Quality-Engineering_R39649", "verified_on": "2026-08-29"}
     },
     {
       "name": "Dominion Energy",
-      "careers_url": "https://careers.dominionenergy.com",
       "ats": "SAP SuccessFactors",
-      "search_hint": "Dominion Energy software engineer OR QA OR \"quality assurance\" OR test engineer Richmond VA site:careers.dominionenergy.com"
+      "official_domains": ["careers.dominionenergy.com", "career8.successfactors.com"],
+      "careers_url": "https://careers.dominionenergy.com",
+      "method": "direct_url",
+      "search_url": "https://careers.dominionenergy.com/search/?q=Software+Engineer&q2=&alertId=&title=&location=Richmond+VA&date=&facility=#searchresults",
+      "extraction": "Server-rendered HTML, no JS needed. Parse <a class=\"jobTitle-link\" href=\"/job/...\">Title</a>. Job URL = https://careers.dominionenergy.com + href.",
+      "notes": "Confirmed still working, matches the URL pattern the user already had. Search ranking is fuzzy (returns electrical/civil engineer titles too) - still needs client-side title filtering.",
+      "verified_example": {"title": "Senior / Staff Engineer", "url": "https://careers.dominionenergy.com/job/RICHMOND-Senior-Staff-Engineer-VA-23219/1420013000/", "verified_on": "2026-08-29"}
     },
     {
       "name": "Honeywell",
-      "careers_url": "https://careers.honeywell.com",
-      "ats": "Oracle Cloud HCM",
-      "search_hint": "Honeywell software engineer OR \"test engineer\" OR QA Richmond VA jobs"
+      "ats": "Oracle Fusion Recruiting Cloud (Oracle Cloud HCM)",
+      "official_domains": ["careers.honeywell.com", "ibqbjb.fa.ocs.oraclecloud.com"],
+      "careers_url": "https://careers.honeywell.com/en/sites/Honeywell",
+      "method": "oracle_cloud_api",
+      "api": {
+        "endpoint": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions",
+        "http_method": "GET",
+        "query_params": "onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=CX_1,limit=25,keyword=%22software%20engineer%22,locationId=300000007426794,radius=25,radiusUnit=MI,sortBy=RELEVANCY",
+        "headers": {"Accept": "application/json"},
+        "extraction": "response.items[0].TotalJobsCount and .requisitionList[]: Title, PrimaryLocation, Id. Job URL = https://careers.honeywell.com/en/sites/Honeywell/job/{Id}"
+      },
+      "richmond_location_id": "300000007426794",
+      "direct_search_url": "https://careers.honeywell.com/en/sites/Honeywell/jobs?keyword=software+engineer&location=Richmond%2C+Richmond+%28Ind+City%29%2C++VA%2C++United+States&locationId=300000007426794&locationLevel=city&mode=location&radius=25&radiusUnit=MI",
+      "notes": "Corrects the brief's guess: this IS the live, working endpoint. As of 2026-08-29 there are ZERO software engineer/QA openings within 25mi of Richmond, VA (confirmed both via API - total:0 - and by loading the search UI live, which showed 'No results were found'). Confirmed the location filter itself works: an unfiltered query for the same locationId returns only 3 unrelated jobs (HVAC Fitter, Sales Rep, Fire Alarm Consultant), so the zero-result state is real, not a broken filter.",
+      "verified_example": null
     },
     {
       "name": "CapTech Consulting",
-      "careers_url": "https://careers.smartrecruiters.com/CapTechConsulting",
       "ats": "SmartRecruiters",
-      "search_hint": "CapTech Consulting software engineer OR \"test automation\" OR QA Richmond VA site:careers.smartrecruiters.com"
+      "official_domains": ["careers.smartrecruiters.com", "jobs.smartrecruiters.com", "api.smartrecruiters.com"],
+      "careers_url": "https://careers.smartrecruiters.com/CapTechConsulting",
+      "method": "smartrecruiters_api",
+      "api": {
+        "endpoint": "https://api.smartrecruiters.com/v1/companies/CapTechConsulting/postings",
+        "http_method": "GET",
+        "query_params": "limit=100",
+        "headers": {"Accept": "application/json"},
+        "extraction": "response.content[]: name, location.city/region/fullLocation, id. Individual posting: GET https://api.smartrecruiters.com/v1/companies/CapTechConsulting/postings/{id} for full detail. Public apply URL = https://jobs.smartrecruiters.com/CapTechConsulting/{id}-{slug} (slug appears in the posting detail's postingUrl field)."
+      },
+      "notes": "jobs.smartrecruiters.com/CapTechConsulting redirects to careers.smartrecruiters.com/CapTechConsulting - both are the same board, canonical is careers.smartrecruiters.com. No location facet needed server-side - just filter the returned content[] client-side where location.city=='Richmond' and location.region=='VA'. 149 total postings company-wide as of verification; 15 in Richmond, VA.",
+      "verified_example": {"title": "Test Automation Engineer", "url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000144401189-test-automation-engineer", "verified_on": "2026-08-29"}
     },
     {
       "name": "Atlantic Casualty Insurance",
-      "careers_url": "https://www.atlanticcasualty.net/about-acic/our-careers/",
       "ats": "ADP Workforce Now",
-      "search_hint": "Atlantic Casualty Insurance software engineer OR QA jobs Richmond VA",
-      "notes": "HQ is actually Goldsboro, NC; Richmond is a satellite office. Postings volume is low."
+      "official_domains": ["atlanticcasualty.net", "www.atlanticcasualty.net", "workforcenow.adp.com"],
+      "careers_url": "https://www.atlanticcasualty.net/about-acic/our-careers/",
+      "method": "direct_url",
+      "extraction": "The careers page itself is a static, server-rendered list: <li><a href=\"https://workforcenow.adp.com/...&jobId=NNNNNN...\"><b>Job Title</b></a></li>. Plain curl/WebFetch of the careers page works and lists every open title+link with no JS needed. The linked ADP job DETAIL pages are a JS SPA shell, though, so location/full description on the detail page requires a JS-capable fetch (browser render) rather than plain curl.",
+      "notes": "HQ is Goldsboro, NC; Richmond is a satellite office, so volume is low and not every posting is Richmond-based - detail page (JS-rendered) must be checked for location, the list page alone doesn't say.",
+      "verified_example": {"title": "Software Engineer II", "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=e6229f05-198a-4fb9-a3bf-1f80e1ca6348&ccId=19000101_000001&jobId=584253&source=CC2&lang=en_US", "verified_on": "2026-08-29"}
     },
     {
       "name": "Richmond National",
-      "careers_url": "https://richmondnational.com/careers/",
-      "ats": "ApplyToJob",
-      "search_hint": "\"Richmond National\" insurance software engineer OR QA OR developer jobs Glen Allen VA",
-      "notes": "Insurance underwriter in Glen Allen, VA. Historically posts underwriting/claims/actuarial roles, not tech — kept per user request in case that changes."
+      "ats": "ApplyToJob (JazzHR)",
+      "official_domains": ["richmondnational.com", "www.richmondnational.com", "richmondnationalservices.applytojob.com"],
+      "careers_url": "https://richmondnationalservices.applytojob.com/apply",
+      "method": "direct_url",
+      "extraction": "Fully static, server-rendered board. Plain curl/WebFetch works. Parse <a href=\"https://richmondnationalservices.applytojob.com/apply/{id}/{Title-Slug}\">. No query filtering supported/needed - the whole board is small enough to list in full and filter client-side.",
+      "notes": "CORRECTS the prior assumption that this company has no tech hiring history: as of 2026-08-29 it has THREE live tech openings (Sr ML Engineer, Sr QA Engineer - Data, Sr Software Engineer), confirmed Glen Allen/Richmond VA on the job detail page. Keep this company on the list.",
+      "verified_example": {"title": "Sr Software Engineer", "url": "https://richmondnationalservices.applytojob.com/apply/WQzgn2ybVa/Sr-Software-Engineer", "verified_on": "2026-08-29"}
     },
     {
       "name": "Capital One",
-      "careers_url": "https://www.capitalonecareers.com",
       "ats": "Workday",
-      "search_hint": "Capital One software engineer OR QA OR SDET Richmond VA West Creek site:capitalone.wd1.myworkdayjobs.com"
+      "official_domains": ["capitalone.wd12.myworkdayjobs.com", "www.capitalonecareers.com"],
+      "careers_url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One",
+      "method": "workday_api",
+      "api": {
+        "endpoint": "https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs",
+        "http_method": "POST",
+        "headers": {"Content-Type": "application/json"},
+        "body_template": {"appliedFacets": {"locations": ["5303cb0ddb47102d5f9e830551de0057", "3b0d3024e0af103d6c20d5f37e1810dc"]}, "limit": 20, "offset": 0, "searchText": "software engineer"},
+        "extraction": "response.jobPostings[]: title, locationsText, externalPath. Job URL = https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One + externalPath. NOTE many results are multi-location reqs (locationsText like '4 Locations') that merely INCLUDE Richmond among many offices - still a valid Richmond-eligible posting, but title-filter client side since full-text search matches loosely."
+      },
+      "richmond_location_facet_ids": {"Richmond, VA (metro)": "5303cb0ddb47102d5f9e830551de0057", "Richmond, VA (site)": "3b0d3024e0af103d6c20d5f37e1810dc"},
+      "notes": "CORRECTS the brief's tenant guess: tenant is wd12, not wd1 (found by reading the myworkdayjobs.com login link embedded in www.capitalonecareers.com's HTML). Site name Capital_One was correct.",
+      "verified_example": {"title": "Senior Platform Engineer", "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Senior-Platform-Engineer_R245239-1", "verified_on": "2026-08-29"}
     },
     {
       "name": "CarMax",
-      "careers_url": "https://careers.carmax.com",
       "ats": "Workday",
-      "search_hint": "CarMax software engineer OR QA OR \"quality engineer\" Richmond VA site:careers.carmax.com"
+      "official_domains": ["carmax.wd1.myworkdayjobs.com", "careers.carmax.com"],
+      "careers_url": "https://carmax.wd1.myworkdayjobs.com/en-US/External",
+      "method": "workday_api",
+      "api": {
+        "endpoint": "https://carmax.wd1.myworkdayjobs.com/wday/cxs/carmax/External/jobs",
+        "http_method": "POST",
+        "headers": {"Content-Type": "application/json"},
+        "body_template": {"appliedFacets": {"primaryLocation": ["961afe55a9b501ca8511eac4cd0f114a", "237d94fa6cfa016b9bc6b7e8041937ec", "cbe6dc051fd70173c5d46635fa19ee64", "cbe6dc051fd70126cf776c35fa19f364"]}, "limit": 20, "offset": 0, "searchText": "software engineer"},
+        "extraction": "response.jobPostings[]: title, locationsText, externalPath. Job URL = https://carmax.wd1.myworkdayjobs.com/en-US/External + externalPath. NOTE: the location facet KEY for this tenant is 'primaryLocation', not 'locations' like the other Workday tenants here - using 'locations' returns HTTP 400."
+      },
+      "richmond_location_facet_ids": {
+        "Corporate - Richmond (HQ)": "961afe55a9b501ca8511eac4cd0f114a",
+        "7975 - Richmond CEC": "237d94fa6cfa016b9bc6b7e8041937ec",
+        "VA - Richmond - Glen Allen": "cbe6dc051fd70173c5d46635fa19ee64",
+        "VA - Richmond - Midlothian": "cbe6dc051fd70126cf776c35fa19f364"
+      },
+      "notes": "CORRECTS the brief's platform guess: CarMax IS Workday (tenant carmax.wd1, site 'External'), not Oracle Cloud/Fusion - confirmed via myworkdayjobs.com links embedded in careers.carmax.com's HTML and a live API call. 'Corporate - Richmond' is the HQ facet where SWE roles cluster.",
+      "verified_example": {"title": "Engineer II, Software", "url": "https://carmax.wd1.myworkdayjobs.com/en-US/External/job/Corporate---Richmond/Engineer-II--Software_JR-174861", "verified_on": "2026-08-29"}
     },
     {
       "name": "Markel",
-      "careers_url": "https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers",
       "ats": "Workday",
-      "search_hint": "Markel software engineer OR QA OR \"quality engineering\" Richmond VA Glen Allen site:markelcorp.wd5.myworkdayjobs.com"
+      "official_domains": ["markelcorp.wd5.myworkdayjobs.com"],
+      "careers_url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers",
+      "method": "workday_api",
+      "api": {
+        "endpoint": "https://markelcorp.wd5.myworkdayjobs.com/wday/cxs/markelcorp/GlobalCareers/jobs",
+        "http_method": "POST",
+        "headers": {"Content-Type": "application/json"},
+        "body_template": {"appliedFacets": {"locations": ["ade3fd7f51bb01336263f6dd6d5cea6d", "9d47f6646d881007fd0d1fd62b5cf44b"]}, "limit": 20, "offset": 0, "searchText": ""},
+        "extraction": "response.jobPostings[]: title, locationsText, externalPath. Job URL = https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers + externalPath. NOTE: the Workday HTML job page returns HTTP 200 for ANY path (client-side router shell) - the JSON API result is the only proof a posting is real/live, not a 200 on the constructed URL."
+      },
+      "richmond_location_facet_ids": {"Richmond, VA": "ade3fd7f51bb01336263f6dd6d5cea6d", "Richmond VA - 4521 Highwoods": "9d47f6646d881007fd0d1fd62b5cf44b"},
+      "notes": "Endpoint fully verified and live. As of 2026-08-29, ZERO of the 49 current Richmond, VA openings match SWE/QA titles (closest are 'Markel 2027 IT Internship Program' and two Guidewire change-management roles) - this is a genuine zero-match state, not a broken query.",
+      "verified_example": null
     },
     {
       "name": "Genworth Financial",
-      "careers_url": "https://gnw.wd1.myworkdayjobs.com/GNW",
       "ats": "Workday",
-      "search_hint": "Genworth software engineer OR QA OR SDET Richmond VA site:gnw.wd1.myworkdayjobs.com"
+      "official_domains": ["gnw.wd1.myworkdayjobs.com"],
+      "careers_url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW",
+      "method": "workday_api",
+      "api": {
+        "endpoint": "https://gnw.wd1.myworkdayjobs.com/wday/cxs/gnw/GNW/jobs",
+        "http_method": "POST",
+        "headers": {"Content-Type": "application/json"},
+        "body_template": {"appliedFacets": {"locations": ["7fa6841689a6106b28b49b43a0faae50"]}, "limit": 20, "offset": 0, "searchText": "software engineer"},
+        "extraction": "response.jobPostings[]: title, locationsText, externalPath. Job URL = https://gnw.wd1.myworkdayjobs.com/en-US/GNW + externalPath"
+      },
+      "richmond_location_facet_ids": {"Richmond, Virginia": "7fa6841689a6106b28b49b43a0faae50", "Remote (Richmond)": "22702c6cb27d1071a691a74d1b761f06"},
+      "notes": "The Richmond location ID extracted independently via the API (search Richmond, grep the locations facet) EXACTLY matches the ID the user already had (7fa6841689a6106b28b49b43a0faae50) - confirms the facet-discovery method documented for the other Workday tenants above is correct.",
+      "verified_example": {"title": "Senior Software Engineer", "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Senior-Software-Engineer_REQ-260304-1", "verified_on": "2026-08-29"}
     },
     {
       "name": "Altria Group",
-      "careers_url": "https://careers.altria.com/talent",
-      "ats": "SAP SuccessFactors",
-      "search_hint": "Altria software engineer OR \"software developer\" OR QA Richmond VA technology jobs"
+      "ats": "SAP SuccessFactors (Recruiting Marketing / RMK)",
+      "official_domains": ["careers.altria.com"],
+      "careers_url": "https://careers.altria.com",
+      "method": "sap_rmk_api",
+      "api": {
+        "endpoint": "https://careers.altria.com/services/recruiting/v1/jobs",
+        "http_method": "POST",
+        "headers": {"Content-Type": "application/json"},
+        "body_template": {"filterQuery": "Software Engineer", "locationSearch": "Richmond, VA", "page": 1, "locale": "en_US"},
+        "extraction": "response.jobSearchResult[].response: unifiedStandardTitle, jobLocationShort[0], unifiedUrlTitle, id. Job URL = https://careers.altria.com/job/{unifiedUrlTitle}/{id}-en_US"
+      },
+      "direct_search_url": "https://careers.altria.com/search/?q=Software+Engineer&locationsearch=Richmond%2C+VA",
+      "notes": "The human-facing search_url above is JS-rendered (a plain curl of it returns an empty shell) - it's fine to link to for a person but a scanner must call the /services/recruiting/v1/jobs API directly, which IS plain-fetchable (verified with a raw curl POST, no browser needed). filterQuery/locationSearch are relevance ranking, not a strict filter (a Hopkinsville, KY posting outranked Richmond, VA ones) - filter jobLocationShort client-side for 'Richmond, VA'.",
+      "verified_example": {"title": "Senior Manager, Integrated Business Solutions", "url": "https://careers.altria.com/job/Senior-Manager%2C-Integrated-Business-Solutions/3129-en_US", "verified_on": "2026-08-29"}
     },
     {
       "name": "WestRock (Smurfit WestRock)",
-      "careers_url": "https://jobs.westrock.com",
-      "ats": "Workday / Avature (verify — ATS may be in transition post Smurfit Kappa merger)",
-      "search_hint": "WestRock OR \"Smurfit WestRock\" software engineer OR QA Richmond VA jobs"
+      "ats": "Avature",
+      "official_domains": ["smurfitwestrockta.avature.net", "www.smurfitwestrock.com"],
+      "careers_url": "https://www.smurfitwestrock.com/careers/jobs",
+      "method": "direct_url",
+      "search_url": "https://smurfitwestrockta.avature.net/en_US/careers/SearchJobs/{urlencoded-keyword}?listFilterMode=1&folderRecordsPerPage=20&",
+      "extraction": "Server-rendered, plain curl/WebFetch works (verified without JS). Parse job cards for title, 'Job ID: ATR#####', location text, and the FolderDetail link (find via the visible 'Job ID' link href pattern /en_US/careers/FolderDetail/{slug}/{internal-id}).",
+      "notes": "CORRECTS the brief: post-merger, www.westrock.com now 301s to www.smurfitwestrock.com - the merger is complete, not 'in transition'. ATS is Avature (tenant smurfitwestrockta), not Workday. IMPORTANT GOTCHA: searching keyword 'Richmond' alone returns false positives from 'North Richmond' - a suburb of Sydney, Australia, where WestRock also has a plant (returned as e.g. 'Customer Service Manager, ANZ'). A scanner MUST filter on 'VA Richmond' or check for ', VA' / 'Virginia' explicitly, not just the word 'Richmond'. As of 2026-08-29, WestRock's actual Richmond, VA site ('VA Richmond Container') has only manufacturing-floor openings (forklift, converting, die cut, finance) - zero SWE/QA.",
+      "verified_example": null
     },
     {
       "name": "Elephant Insurance",
-      "careers_url": "https://jobs.elephant.com/vacancies/",
-      "ats": "Unconfirmed (own portal)",
-      "search_hint": "Elephant Insurance software engineer OR QA OR \"quality assurance analyst\" Richmond VA jobs"
+      "ats": "BambooHR",
+      "official_domains": ["elephantinsurance.bamboohr.com", "www.elephant.com"],
+      "careers_url": "https://elephantinsurance.bamboohr.com/careers",
+      "method": "bamboohr_api",
+      "api": {
+        "endpoint": "https://elephantinsurance.bamboohr.com/careers/list",
+        "http_method": "GET",
+        "headers": {"Accept": "application/json"},
+        "extraction": "response.result[]: jobOpeningName, location.city/state, id. Job URL = https://elephantinsurance.bamboohr.com/careers/{id}"
+      },
+      "notes": "CORRECTS the brief: jobs.elephant.com does not resolve/times out and elephant.com is behind bot-protection that blocks plain curl (403) - the real, working career site is on BambooHR at elephantinsurance.bamboohr.com, found via a JS-context fetch that located the 'Join the Herd' link on elephant.com/careers. The API itself has no bot protection and is plain-curl-able. As of 2026-08-29 there is only ONE open position company-wide ('Entry Level Work From Home Claims Adjuster', Richmond, VA) - zero SWE/QA currently, but the endpoint is fully verified.",
+      "verified_example": null
     },
     {
       "name": "Snagajob",
+      "ats": "Greenhouse (currently broken)",
+      "official_domains": ["www.snagajob.com", "boards.greenhouse.io"],
       "careers_url": "https://www.snagajob.com/about/careers",
-      "ats": "Unconfirmed (likely custom)",
-      "search_hint": "Snagajob software engineer OR QA jobs Glen Allen VA Richmond"
+      "method": "broken_verify_manually",
+      "notes": "www.snagajob.com is behind bot-protection that blocks plain curl (403) - had to use a JS-context browser fetch. Their own careers page's Angular app calls https://api.greenhouse.io/v1/boards/snagajob/jobs to populate the 'Open positions' widget, and that call returns a live HTTP 404 - confirmed both by calling it directly and by watching Snagajob's OWN page throw the same 404 in its console. The board token 'snagajob' does not exist on Greenhouse's public API (tried several plausible token variants, all 404). This means Snagajob's careers page is currently not surfacing ANY open positions through its intended mechanism - not a scanner problem, a bug on their end. Recommend either dropping this company from the watch list or re-checking periodically by hand until they fix their board integration; there is currently no reliable automated method.",
+      "verified_example": null
     },
     {
       "name": "Performance Food Group",
+      "ats": "Likely IBM Kenexa BrassRing behind a Radancy-style career site (job IDs follow BrassRing's 'NNNNNNBR' format; exact vendor not fully confirmed)",
+      "official_domains": ["jobs.performancefoodservice.com", "www.pfgc.com"],
       "careers_url": "https://jobs.performancefoodservice.com",
-      "ats": "Unconfirmed",
-      "search_hint": "\"Performance Food Group\" software engineer OR QA OR developer jobs Richmond Goochland VA"
+      "method": "direct_url",
+      "search_url": "https://jobs.performancefoodservice.com/job-search-results/?filter%5Bcategory%5D=Information%20Systems",
+      "extraction": "Parse job cards for title, 'Job ID: NNNNNNBR', location, career area, and the /job/{slug}/{city-state}/{id}/ detail link.",
+      "notes": "jobs.performancefoodservice.com is behind bot-protection that blocks plain curl (403) - verified instead via a real browser render, which works fine and shows real listings, so a scanner needs a JS-capable/browser fetch for this one (plain WebFetch may also get blocked - test before relying on it). This board covers ALL Performance Food Group family brands (Performance Foodservice, Core-Mark, Vistar, Afflink, etc.) via a 'Division' facet, not just the Foodservice division the domain name suggests. Richmond, VA corporate HQ jobs are tagged Location Name 'West Creek-Richmond Corp (0999)' and Career Area 'Information Systems' - that facet is the right filter for SWE/QA-adjacent roles, NOT a free-text 'software engineer' keyword search (that returned 0 results even though real IT roles exist, because titles there run Network/Security/Service-Desk rather than 'engineer'). As of 2026-08-29, IT roles present are infra-flavored (Network Services Manager, Info Security Analyst, IT Service Desk Lead) - zero literal SWE/QA titles right now, but the mechanism and location are fully verified.",
+      "verified_example": {"title": "Network Services Manager", "url": "https://jobs.performancefoodservice.com/job/network-services-manager/richmond-va/151516BR/", "verified_on": "2026-08-29", "caveat": "not itself a SWE/QA title - cited only to prove the URL/mechanism is live"}
     }
   ]
 }
