@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-01T21:09:46Z",
+  "last_run": "2026-09-02T12:22:01Z",
   "companies": {
     "CoStar Group": [
       {"title": "Associate Software Engineer", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus/job/Associate-Software-Engineer---Richmond--VA_R36970", "first_seen": "2026-08-27"},
@@ -47,7 +47,10 @@
       {"title": "Software Engineer, Full Stack - Card Tech", "location": "Richmond, VA", "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Software-Engineer--Full-Stack---Card-Tech_R220821-1", "first_seen": "2026-08-31"},
       {"title": "Senior Software Engineer, Full Stack - Capital One Software (Remote)", "location": "Richmond, VA", "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Senior-Software-Engineer--Full-Stack---Capital-One-Software--Remote-_R207143-1", "first_seen": "2026-08-31"},
       {"title": "Senior Software Engineer, DevOps (Cloud Operations Resilience Engineering)", "location": "Richmond, VA (West Creek)", "url": "https://capitalone.wd12.myworkdayjobs.com/fr-CA/Capital_One/job/Richmond-VA/Senior-Software-Engineer--DevOps--Cloud-Operations-Resilience-Engineering-_R203244-1", "first_seen": "2026-09-01"},
-      {"title": "Lead Software Engineer, DevOps (Remote Eligible)", "location": "Richmond, VA (West Creek)", "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Lead-Software-Engineer--DevOps--Remote-Eligible-_R207460-1", "first_seen": "2026-09-01"}
+      {"title": "Lead Software Engineer, DevOps (Remote Eligible)", "location": "Richmond, VA (West Creek)", "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Lead-Software-Engineer--DevOps--Remote-Eligible-_R207460-1", "first_seen": "2026-09-01"},
+      {"title": "Senior Software Engineer, Back End (Cloud Operations Resilience Engineering)", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-back-end-cloud-operations-resilience-engineering/1732/74034353072", "first_seen": "2026-09-02"},
+      {"title": "Software Engineer, Full Stack (JavaScript, ReactJS, AWS)", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/software-engineer-full-stack-javascript-reactjs-aws/1732/60812464640", "first_seen": "2026-09-02"},
+      {"title": "Senior Lead Software Engineer, Back End", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/senior-lead-software-engineer-back-end/1732/73272110496", "first_seen": "2026-09-02"}
     ],
     "CarMax": [
       {"title": "Software Engineer II - MDM", "location": "Richmond, VA", "url": "https://careers.carmax.com/us/en/job/JR-157876/Software-Engineer-II-MDM", "first_seen": "2026-08-27"},
@@ -75,7 +78,8 @@
       {"title": "Senior Java Developer", "location": "Richmond, Virginia", "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Senior-Java-Developer_REQ-260215", "first_seen": "2026-08-31"},
       {"title": "Full Stack Java Developer", "location": "Richmond, Virginia", "url": "https://gnw.wd1.myworkdayjobs.com/en-US/gnw/job/Richmond-Virginia/Full-Stack-Java-Developer_REQ-250493", "first_seen": "2026-08-31"},
       {"title": "Sr Java Developer", "location": "Richmond, Virginia", "url": "https://gnw.wd1.myworkdayjobs.com/es/GNW/job/Richmond-Virginia/Sr-Java-Developer_REQ-260075", "first_seen": "2026-09-01"},
-      {"title": "Senior Pega Developer", "location": "Richmond, Virginia", "url": "https://gnw.wd1.myworkdayjobs.com/GNW/job/Richmond-Virginia/Senior-Pega-Developer_REQ-260032", "first_seen": "2026-09-01"}
+      {"title": "Senior Pega Developer", "location": "Richmond, Virginia", "url": "https://gnw.wd1.myworkdayjobs.com/GNW/job/Richmond-Virginia/Senior-Pega-Developer_REQ-260032", "first_seen": "2026-09-01"},
+      {"title": "Cobol Application Developer", "location": "Richmond, Virginia", "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Cobol-Application-Developer_REQ-250183", "first_seen": "2026-09-02"}
     ],
     "Altria Group": [],
     "WestRock (Smurfit WestRock)": [],
