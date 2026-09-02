@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-02T12:22:01Z",
+  "last_run": "2026-09-02T16:11:14Z",
   "companies": {
     "CoStar Group": [
       {"title": "Associate Software Engineer", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus/job/Associate-Software-Engineer---Richmond--VA_R36970", "first_seen": "2026-08-27"},
@@ -16,7 +16,8 @@
       {"title": "Software Engr II", "location": "Richmond, VA (3951 Westerre Pkwy)", "url": "https://careers.honeywell.com/us/en/job/req482923/Software-Engr-II", "first_seen": "2026-08-29"},
       {"title": "Software Engineer II – Tools and Build Infrastructure", "location": "Richmond, VA (3951 Westerre Pkwy)", "url": "https://careers.honeywell.com/cn/zh/job/req478669/Software-Engineer-II-Tools-and-Build-Infrastructure", "first_seen": "2026-08-29"},
       {"title": "Senior Software Engineer", "location": "Richmond, VA (3951 Westerre Pkwy)", "url": "https://careers.honeywell.com/ca/fr/job/HRD248753/Senior-Software-Engineer", "first_seen": "2026-08-31"},
-      {"title": "Sr Advanced Software Engr", "location": "Richmond, VA (3951 Westerre Pkwy)", "url": "https://careers.honeywell.com/nl/nl/job/req481104/Sr-Advanced-Software-Engr", "first_seen": "2026-09-01"}
+      {"title": "Sr Advanced Software Engr", "location": "Richmond, VA (3951 Westerre Pkwy)", "url": "https://careers.honeywell.com/nl/nl/job/req481104/Sr-Advanced-Software-Engr", "first_seen": "2026-09-01"},
+      {"title": "Senior Developmental Operations Engineer", "location": "Richmond, VA (3951 Westerre Pkwy)", "url": "https://careers.honeywell.com/us/en/job/HRD261001/Senior-Developmental-Operations-Engineer", "first_seen": "2026-09-02"}
     ],
     "CapTech Consulting": [
       {"title": "Android Software Engineer - Mobile", "location": "Richmond, VA", "url": "https://jobs.smartrecruiters.com/CapTechConsulting/743999743136685-android-software-engineer-mobile", "first_seen": "2026-08-29"},
