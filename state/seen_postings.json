@@ -1,89 +1,431 @@
 {
-  "last_run": "2026-09-03T16:09:09Z",
+  "last_run": "2026-09-03T21:08:42Z",
   "companies": {
     "CoStar Group": [
-      {"title": "Associate Software Engineer", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus/job/Associate-Software-Engineer---Richmond--VA_R36970", "first_seen": "2026-08-27"},
-      {"title": "Software Engineer", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/CoStarCareers/job/US-VA-Richmond/Software-Engineer_R37734", "first_seen": "2026-08-27"},
-      {"title": "Software Engineer II - Backend", "location": "Richmond, VA (CoStar Tower)", "url": "https://costar.wd1.myworkdayjobs.com/costarcareers/job/US-VA-Richmond---CoStar-Tower/Software-Engineer-II---Backend_R39650", "first_seen": "2026-08-27"},
-      {"title": "Software Engineer II", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/costarcareers/job/us-va-richmond/software-engineer-ii_r38034", "first_seen": "2026-08-31"},
-      {"title": "Senior Software Engineer", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/US-VA-Richmond/Senior-Software-Engineer_R38033", "first_seen": "2026-08-31"},
-      {"title": "Software Engineer (React) - Research Development", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/de-CH/CoStarCareers/job/US-VA-Richmond/Software-Engineer--React----Research-Development_R37213", "first_seen": "2026-08-31"},
-      {"title": "Senior Software Engineer- Web Enterprise, Research, and Data Services", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Senior-Software-Engineer--Web-Enterprise--Research--and-Data-Services_R35852", "first_seen": "2026-09-03"},
-      {"title": "Team Lead, Software Engineering", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/CoStar-Group---Software-Engineer-Team-Lead_R34221", "first_seen": "2026-09-03"}
+      {
+        "title": "Associate Software Engineer",
+        "location": "Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus/job/Associate-Software-Engineer---Richmond--VA_R36970",
+        "first_seen": "2026-08-27"
+      },
+      {
+        "title": "Software Engineer",
+        "location": "Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/CoStarCareers/job/US-VA-Richmond/Software-Engineer_R37734",
+        "first_seen": "2026-08-27"
+      },
+      {
+        "title": "Software Engineer II - Backend",
+        "location": "Richmond, VA (CoStar Tower)",
+        "url": "https://costar.wd1.myworkdayjobs.com/costarcareers/job/US-VA-Richmond---CoStar-Tower/Software-Engineer-II---Backend_R39650",
+        "first_seen": "2026-08-27"
+      },
+      {
+        "title": "Software Engineer II",
+        "location": "Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/costarcareers/job/us-va-richmond/software-engineer-ii_r38034",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Senior Software Engineer",
+        "location": "Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/US-VA-Richmond/Senior-Software-Engineer_R38033",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Software Engineer (React) - Research Development",
+        "location": "Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/de-CH/CoStarCareers/job/US-VA-Richmond/Software-Engineer--React----Research-Development_R37213",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Senior Software Engineer- Web Enterprise, Research, and Data Services",
+        "location": "Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Senior-Software-Engineer--Web-Enterprise--Research--and-Data-Services_R35852",
+        "first_seen": "2026-09-03"
+      },
+      {
+        "title": "Team Lead, Software Engineering",
+        "location": "Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/CoStar-Group---Software-Engineer-Team-Lead_R34221",
+        "first_seen": "2026-09-03"
+      }
     ],
     "Dominion Energy": [
-      {"title": "Senior Software Engineer", "location": "Richmond, VA", "url": "https://careers.dominionenergy.com/job/RICHMOND-Senior-Software-Engineer-VA-23227/1405041900/", "first_seen": "2026-08-29"}
+      {
+        "title": "Senior Software Engineer",
+        "location": "Richmond, VA",
+        "url": "https://careers.dominionenergy.com/job/RICHMOND-Senior-Software-Engineer-VA-23227/1405041900/",
+        "first_seen": "2026-08-29"
+      }
     ],
     "Honeywell": [
-      {"title": "Software Engr II", "location": "Richmond, VA (3951 Westerre Pkwy)", "url": "https://careers.honeywell.com/us/en/job/req482923/Software-Engr-II", "first_seen": "2026-08-29"},
-      {"title": "Software Engineer II – Tools and Build Infrastructure", "location": "Richmond, VA (3951 Westerre Pkwy)", "url": "https://careers.honeywell.com/cn/zh/job/req478669/Software-Engineer-II-Tools-and-Build-Infrastructure", "first_seen": "2026-08-29"},
-      {"title": "Senior Software Engineer", "location": "Richmond, VA (3951 Westerre Pkwy)", "url": "https://careers.honeywell.com/ca/fr/job/HRD248753/Senior-Software-Engineer", "first_seen": "2026-08-31"},
-      {"title": "Sr Advanced Software Engr", "location": "Richmond, VA (3951 Westerre Pkwy)", "url": "https://careers.honeywell.com/nl/nl/job/req481104/Sr-Advanced-Software-Engr", "first_seen": "2026-09-01"},
-      {"title": "Senior Developmental Operations Engineer", "location": "Richmond, VA (3951 Westerre Pkwy)", "url": "https://careers.honeywell.com/us/en/job/HRD261001/Senior-Developmental-Operations-Engineer", "first_seen": "2026-09-02"}
+      {
+        "title": "Software Engr II",
+        "location": "Richmond, VA (3951 Westerre Pkwy)",
+        "url": "https://careers.honeywell.com/us/en/job/req482923/Software-Engr-II",
+        "first_seen": "2026-08-29"
+      },
+      {
+        "title": "Software Engineer II \u2013 Tools and Build Infrastructure",
+        "location": "Richmond, VA (3951 Westerre Pkwy)",
+        "url": "https://careers.honeywell.com/cn/zh/job/req478669/Software-Engineer-II-Tools-and-Build-Infrastructure",
+        "first_seen": "2026-08-29"
+      },
+      {
+        "title": "Senior Software Engineer",
+        "location": "Richmond, VA (3951 Westerre Pkwy)",
+        "url": "https://careers.honeywell.com/ca/fr/job/HRD248753/Senior-Software-Engineer",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Sr Advanced Software Engr",
+        "location": "Richmond, VA (3951 Westerre Pkwy)",
+        "url": "https://careers.honeywell.com/nl/nl/job/req481104/Sr-Advanced-Software-Engr",
+        "first_seen": "2026-09-01"
+      },
+      {
+        "title": "Senior Developmental Operations Engineer",
+        "location": "Richmond, VA (3951 Westerre Pkwy)",
+        "url": "https://careers.honeywell.com/us/en/job/HRD261001/Senior-Developmental-Operations-Engineer",
+        "first_seen": "2026-09-02"
+      },
+      {
+        "title": "Software Engr I",
+        "location": "Richmond, VA (3951 Westerre Pkwy)",
+        "url": "https://careers.honeywell.com/en/sites/Honeywell/job/116121/",
+        "first_seen": "2026-09-03"
+      }
     ],
     "CapTech Consulting": [
-      {"title": "Android Software Engineer - Mobile", "location": "Richmond, VA", "url": "https://jobs.smartrecruiters.com/CapTechConsulting/743999743136685-android-software-engineer-mobile", "first_seen": "2026-08-29"},
-      {"title": "Internship - Software Engineer Consultant", "location": "Richmond, VA", "url": "https://jobs.smartrecruiters.com/CapTechConsulting/743999709504830-internship-software-engineer-consultant", "first_seen": "2026-08-31"},
-      {"title": "Test Automation Engineer", "location": "Richmond, VA", "url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000144346729-test-automation-engineer", "first_seen": "2026-08-31"},
-      {"title": "Full-Stack Engineer", "location": "Richmond, VA", "url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000120821647-full-stack-engineer", "first_seen": "2026-08-31"},
-      {"title": "Consulting Internship: Software Engineering (Summer 2026)", "location": "Richmond, VA", "url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000084976114-consulting-internship-software-engineering-summer-2026-", "first_seen": "2026-08-31"}
+      {
+        "title": "Android Software Engineer - Mobile",
+        "location": "Richmond, VA",
+        "url": "https://jobs.smartrecruiters.com/CapTechConsulting/743999743136685-android-software-engineer-mobile",
+        "first_seen": "2026-08-29"
+      },
+      {
+        "title": "Internship - Software Engineer Consultant",
+        "location": "Richmond, VA",
+        "url": "https://jobs.smartrecruiters.com/CapTechConsulting/743999709504830-internship-software-engineer-consultant",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Test Automation Engineer",
+        "location": "Richmond, VA",
+        "url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000144346729-test-automation-engineer",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Full-Stack Engineer",
+        "location": "Richmond, VA",
+        "url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000120821647-full-stack-engineer",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Consulting Internship: Software Engineering (Summer 2026)",
+        "location": "Richmond, VA",
+        "url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000084976114-consulting-internship-software-engineering-summer-2026-",
+        "first_seen": "2026-08-31"
+      }
     ],
     "Atlantic Casualty Insurance": [],
     "Richmond National": [],
     "Capital One": [
-      {"title": "Senior Software Engineer, Full Stack (Bank Tech)", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-full-stack-bank-tech/1732/71314985136", "first_seen": "2026-08-29"},
-      {"title": "Senior Software Engineer, Full Stack", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-full-stack/1732/90789010736", "first_seen": "2026-08-29"},
-      {"title": "Sr. Software Engineer (Full Stack)", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/sr-software-engineer-full-stack/1732/61593464832", "first_seen": "2026-08-31"},
-      {"title": "Senior Software Engineer, Salesforce", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-salesforce/1732/89196695568", "first_seen": "2026-08-31"},
-      {"title": "Software Engineer, Full Stack", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/software-engineer-full-stack/1732/79833222752", "first_seen": "2026-08-31"},
-      {"title": "Lead Software Engineer", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer/1732/80682308352", "first_seen": "2026-08-31"},
-      {"title": "Lead Software Engineer, Full Stack (Remote-Eligible)", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-full-stack-remote-eligible/1732/82098071504", "first_seen": "2026-08-31"},
-      {"title": "Lead Software Engineer, Full Stack", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-full-stack/1732/93206008224", "first_seen": "2026-08-31"},
-      {"title": "Senior Lead Software Engineer, Full Stack", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/senior-lead-software-engineer-full-stack/1732/60463338944", "first_seen": "2026-08-31"},
-      {"title": "Lead Software Engineer, Systematics (Remote)", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-systematics-remote/1732/91142145232", "first_seen": "2026-08-31"},
-      {"title": "Software Engineer, Full Stack - Capital One Software (Remote)", "location": "Richmond, VA (West Creek)", "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Software-Engineer--Full-Stack---Capital-One-Software--Remote-_R207148-1", "first_seen": "2026-08-31"},
-      {"title": "Senior Software Engineer, Full Stack (Enterprise Platforms Technology)", "location": "Richmond, VA (West Creek)", "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Senior-Software-Engineer--Full-Stack--Enterprise-Platforms-Technology-_R201199", "first_seen": "2026-08-31"},
-      {"title": "Lead Software Engineer, Full Stack - Capital One Software (Remote)", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-full-stack-capital-one-software-remote/1732/77617798144", "first_seen": "2026-08-31"},
-      {"title": "Senior Software Engineer", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer/1732/85457685632", "first_seen": "2026-08-31"},
-      {"title": "Senior Software Engineer (Bank Tech)", "location": "Richmond, VA", "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Senior-Software-Engineer--Bank-Tech-_R215413-1", "first_seen": "2026-08-31"},
-      {"title": "Principal Full Stack Software Engineer - Capital One Software (Remote)", "location": "Richmond, VA", "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Principal-Full-Stack-Software-Engineer---Capital-One-Software--Remote-_R208037-1", "first_seen": "2026-08-31"},
-      {"title": "Software Engineer, Full Stack - Card Tech", "location": "Richmond, VA", "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Software-Engineer--Full-Stack---Card-Tech_R220821-1", "first_seen": "2026-08-31"},
-      {"title": "Senior Software Engineer, Full Stack - Capital One Software (Remote)", "location": "Richmond, VA", "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Senior-Software-Engineer--Full-Stack---Capital-One-Software--Remote-_R207143-1", "first_seen": "2026-08-31"},
-      {"title": "Senior Software Engineer, DevOps (Cloud Operations Resilience Engineering)", "location": "Richmond, VA (West Creek)", "url": "https://capitalone.wd12.myworkdayjobs.com/fr-CA/Capital_One/job/Richmond-VA/Senior-Software-Engineer--DevOps--Cloud-Operations-Resilience-Engineering-_R203244-1", "first_seen": "2026-09-01"},
-      {"title": "Lead Software Engineer, DevOps (Remote Eligible)", "location": "Richmond, VA (West Creek)", "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Lead-Software-Engineer--DevOps--Remote-Eligible-_R207460-1", "first_seen": "2026-09-01"},
-      {"title": "Senior Software Engineer, Back End (Cloud Operations Resilience Engineering)", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-back-end-cloud-operations-resilience-engineering/1732/74034353072", "first_seen": "2026-09-02"},
-      {"title": "Software Engineer, Full Stack (JavaScript, ReactJS, AWS)", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/software-engineer-full-stack-javascript-reactjs-aws/1732/60812464640", "first_seen": "2026-09-02"},
-      {"title": "Senior Lead Software Engineer, Back End", "location": "Richmond, VA (West Creek)", "url": "https://www.capitalonecareers.com/job/richmond/senior-lead-software-engineer-back-end/1732/73272110496", "first_seen": "2026-09-02"}
+      {
+        "title": "Senior Software Engineer, Full Stack (Bank Tech)",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-full-stack-bank-tech/1732/71314985136",
+        "first_seen": "2026-08-29"
+      },
+      {
+        "title": "Senior Software Engineer, Full Stack",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-full-stack/1732/90789010736",
+        "first_seen": "2026-08-29"
+      },
+      {
+        "title": "Sr. Software Engineer (Full Stack)",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/sr-software-engineer-full-stack/1732/61593464832",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Senior Software Engineer, Salesforce",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-salesforce/1732/89196695568",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Software Engineer, Full Stack",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/software-engineer-full-stack/1732/79833222752",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Lead Software Engineer",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer/1732/80682308352",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Lead Software Engineer, Full Stack (Remote-Eligible)",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-full-stack-remote-eligible/1732/82098071504",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Lead Software Engineer, Full Stack",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-full-stack/1732/93206008224",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Senior Lead Software Engineer, Full Stack",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-lead-software-engineer-full-stack/1732/60463338944",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Lead Software Engineer, Systematics (Remote)",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-systematics-remote/1732/91142145232",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Software Engineer, Full Stack - Capital One Software (Remote)",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Software-Engineer--Full-Stack---Capital-One-Software--Remote-_R207148-1",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Senior Software Engineer, Full Stack (Enterprise Platforms Technology)",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Senior-Software-Engineer--Full-Stack--Enterprise-Platforms-Technology-_R201199",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Lead Software Engineer, Full Stack - Capital One Software (Remote)",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-full-stack-capital-one-software-remote/1732/77617798144",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Senior Software Engineer",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer/1732/85457685632",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Senior Software Engineer (Bank Tech)",
+        "location": "Richmond, VA",
+        "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Senior-Software-Engineer--Bank-Tech-_R215413-1",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Principal Full Stack Software Engineer - Capital One Software (Remote)",
+        "location": "Richmond, VA",
+        "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Principal-Full-Stack-Software-Engineer---Capital-One-Software--Remote-_R208037-1",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Software Engineer, Full Stack - Card Tech",
+        "location": "Richmond, VA",
+        "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Software-Engineer--Full-Stack---Card-Tech_R220821-1",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Senior Software Engineer, Full Stack - Capital One Software (Remote)",
+        "location": "Richmond, VA",
+        "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Senior-Software-Engineer--Full-Stack---Capital-One-Software--Remote-_R207143-1",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Senior Software Engineer, DevOps (Cloud Operations Resilience Engineering)",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://capitalone.wd12.myworkdayjobs.com/fr-CA/Capital_One/job/Richmond-VA/Senior-Software-Engineer--DevOps--Cloud-Operations-Resilience-Engineering-_R203244-1",
+        "first_seen": "2026-09-01"
+      },
+      {
+        "title": "Lead Software Engineer, DevOps (Remote Eligible)",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Lead-Software-Engineer--DevOps--Remote-Eligible-_R207460-1",
+        "first_seen": "2026-09-01"
+      },
+      {
+        "title": "Senior Software Engineer, Back End (Cloud Operations Resilience Engineering)",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-back-end-cloud-operations-resilience-engineering/1732/74034353072",
+        "first_seen": "2026-09-02"
+      },
+      {
+        "title": "Software Engineer, Full Stack (JavaScript, ReactJS, AWS)",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/software-engineer-full-stack-javascript-reactjs-aws/1732/60812464640",
+        "first_seen": "2026-09-02"
+      },
+      {
+        "title": "Senior Lead Software Engineer, Back End",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-lead-software-engineer-back-end/1732/73272110496",
+        "first_seen": "2026-09-02"
+      },
+      {
+        "title": "Senior Software Engineer, Back End",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-back-end/1732/75188348512",
+        "first_seen": "2026-09-03"
+      }
     ],
     "CarMax": [
-      {"title": "Software Engineer II - MDM", "location": "Richmond, VA", "url": "https://careers.carmax.com/us/en/job/JR-157876/Software-Engineer-II-MDM", "first_seen": "2026-08-27"},
-      {"title": "Sr Engineer, Quality", "location": "Richmond, VA", "url": "https://careers.carmax.com/us/en/job/JR-160921/Sr-Engineer-Quality", "first_seen": "2026-08-27"},
-      {"title": "Senior Software Engineer", "location": "Richmond, VA", "url": "https://careers.carmax.com/us/en/job/JR-152628/Senior-Software-Engineer", "first_seen": "2026-08-27"},
-      {"title": "Engineer II, Software", "location": "Richmond, VA", "url": "https://careers.carmax.com/engineer-ii-software/job/F3FDB5A066F7D7AA7F97F3394B2F251F", "first_seen": "2026-08-27"},
-      {"title": "Senior Software Engineer, Oracle Cloud", "location": "Richmond, VA", "url": "https://careers.carmax.com/senior-software-engineer-oracle-cloud/job/365F4F929D8EA8B00EFD36223BE6D534", "first_seen": "2026-08-29"},
-      {"title": "Engineer II, Quality", "location": "Richmond, VA", "url": "https://careers.carmax.com/us/en/job/JR-156267/Engineer-II-Quality", "first_seen": "2026-08-31"},
-      {"title": "Principal Software Engineer, SCM", "location": "Richmond, VA", "url": "https://careers.carmax.com/us/en/job/JR-161651/Principal-Software-Engineer-SCM", "first_seen": "2026-08-31"},
-      {"title": "Principal Software Engineer", "location": "Richmond, VA", "url": "https://careers.carmax.com/us/en/job/JR-148104/Principal-Software-Engineer", "first_seen": "2026-08-31"},
-      {"title": "Software Developer II", "location": "Richmond, VA", "url": "https://careers.carmax.com/us/en/job/JR-040743/Software-Developer-II", "first_seen": "2026-08-31"},
-      {"title": "Sr. Engineer, Software-REMOTE", "location": "Richmond, VA", "url": "https://careers.carmax.com/us/en/job/JR-132043/Sr-Engineer-Software-REMOTE", "first_seen": "2026-08-31"},
-      {"title": "Software Engineer II", "location": "Richmond, VA", "url": "https://careers.carmax.com/us/en/job/JR-159887/Software-Engineer-II", "first_seen": "2026-09-01"}
+      {
+        "title": "Software Engineer II - MDM",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/us/en/job/JR-157876/Software-Engineer-II-MDM",
+        "first_seen": "2026-08-27"
+      },
+      {
+        "title": "Sr Engineer, Quality",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/us/en/job/JR-160921/Sr-Engineer-Quality",
+        "first_seen": "2026-08-27"
+      },
+      {
+        "title": "Senior Software Engineer",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/us/en/job/JR-152628/Senior-Software-Engineer",
+        "first_seen": "2026-08-27"
+      },
+      {
+        "title": "Engineer II, Software",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/engineer-ii-software/job/F3FDB5A066F7D7AA7F97F3394B2F251F",
+        "first_seen": "2026-08-27"
+      },
+      {
+        "title": "Senior Software Engineer, Oracle Cloud",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/senior-software-engineer-oracle-cloud/job/365F4F929D8EA8B00EFD36223BE6D534",
+        "first_seen": "2026-08-29"
+      },
+      {
+        "title": "Engineer II, Quality",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/us/en/job/JR-156267/Engineer-II-Quality",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Principal Software Engineer, SCM",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/us/en/job/JR-161651/Principal-Software-Engineer-SCM",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Principal Software Engineer",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/us/en/job/JR-148104/Principal-Software-Engineer",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Software Developer II",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/us/en/job/JR-040743/Software-Developer-II",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Sr. Engineer, Software-REMOTE",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/us/en/job/JR-132043/Sr-Engineer-Software-REMOTE",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Software Engineer II",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/us/en/job/JR-159887/Software-Engineer-II",
+        "first_seen": "2026-09-01"
+      }
     ],
     "Markel": [
-      {"title": "Principal Software Engineer", "location": "Richmond, VA", "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Richmond-VA/Principal-Software-Engineer_R0021853", "first_seen": "2026-08-27"},
-      {"title": "Software Engineer", "location": "Richmond, VA", "url": "https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers/job/Richmond-VA/Software-Engineer_R0022945-1", "first_seen": "2026-08-31"},
-      {"title": "Sr. Software Engineer Databricks", "location": "Richmond, VA", "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Sr-Software-Engineer_R0019589", "first_seen": "2026-08-31"},
-      {"title": "Associate Software Engineer", "location": "Richmond, VA", "url": "https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers/job/Richmond-VA/Associate-Software-Engineer_R0018601", "first_seen": "2026-08-31"},
-      {"title": "Associate Software Engineer, Data", "location": "Richmond, VA", "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Richmond-VA/Associate-Software-Engineer--Data_R0017594-1", "first_seen": "2026-08-31"},
-      {"title": "Sr. Software Engineer", "location": "Richmond, VA", "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Richmond-VA/Sr-Software-Engineer_R0020324", "first_seen": "2026-09-01"},
-      {"title": "Microsoft Power Platform Software Engineer", "location": "Richmond, VA", "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Microsoft-Power-Platform-Software-Engineer_R0022994-1", "first_seen": "2026-09-03"}
+      {
+        "title": "Principal Software Engineer",
+        "location": "Richmond, VA",
+        "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Richmond-VA/Principal-Software-Engineer_R0021853",
+        "first_seen": "2026-08-27"
+      },
+      {
+        "title": "Software Engineer",
+        "location": "Richmond, VA",
+        "url": "https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers/job/Richmond-VA/Software-Engineer_R0022945-1",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Sr. Software Engineer Databricks",
+        "location": "Richmond, VA",
+        "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Sr-Software-Engineer_R0019589",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Associate Software Engineer",
+        "location": "Richmond, VA",
+        "url": "https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers/job/Richmond-VA/Associate-Software-Engineer_R0018601",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Associate Software Engineer, Data",
+        "location": "Richmond, VA",
+        "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Richmond-VA/Associate-Software-Engineer--Data_R0017594-1",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Sr. Software Engineer",
+        "location": "Richmond, VA",
+        "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Richmond-VA/Sr-Software-Engineer_R0020324",
+        "first_seen": "2026-09-01"
+      },
+      {
+        "title": "Microsoft Power Platform Software Engineer",
+        "location": "Richmond, VA",
+        "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Microsoft-Power-Platform-Software-Engineer_R0022994-1",
+        "first_seen": "2026-09-03"
+      }
     ],
     "Genworth Financial": [
-      {"title": "Software Engineer", "location": "Richmond, Virginia", "url": "https://gnw.wd1.myworkdayjobs.com/GNW/job/Richmond-Virginia/Software-Engineer_REQ-260177", "first_seen": "2026-08-31"},
-      {"title": "Senior Java Developer", "location": "Richmond, Virginia", "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Senior-Java-Developer_REQ-260215", "first_seen": "2026-08-31"},
-      {"title": "Full Stack Java Developer", "location": "Richmond, Virginia", "url": "https://gnw.wd1.myworkdayjobs.com/en-US/gnw/job/Richmond-Virginia/Full-Stack-Java-Developer_REQ-250493", "first_seen": "2026-08-31"},
-      {"title": "Sr Java Developer", "location": "Richmond, Virginia", "url": "https://gnw.wd1.myworkdayjobs.com/es/GNW/job/Richmond-Virginia/Sr-Java-Developer_REQ-260075", "first_seen": "2026-09-01"},
-      {"title": "Senior Pega Developer", "location": "Richmond, Virginia", "url": "https://gnw.wd1.myworkdayjobs.com/GNW/job/Richmond-Virginia/Senior-Pega-Developer_REQ-260032", "first_seen": "2026-09-01"},
-      {"title": "Cobol Application Developer", "location": "Richmond, Virginia", "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Cobol-Application-Developer_REQ-250183", "first_seen": "2026-09-02"}
+      {
+        "title": "Software Engineer",
+        "location": "Richmond, Virginia",
+        "url": "https://gnw.wd1.myworkdayjobs.com/GNW/job/Richmond-Virginia/Software-Engineer_REQ-260177",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Senior Java Developer",
+        "location": "Richmond, Virginia",
+        "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Senior-Java-Developer_REQ-260215",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Full Stack Java Developer",
+        "location": "Richmond, Virginia",
+        "url": "https://gnw.wd1.myworkdayjobs.com/en-US/gnw/job/Richmond-Virginia/Full-Stack-Java-Developer_REQ-250493",
+        "first_seen": "2026-08-31"
+      },
+      {
+        "title": "Sr Java Developer",
+        "location": "Richmond, Virginia",
+        "url": "https://gnw.wd1.myworkdayjobs.com/es/GNW/job/Richmond-Virginia/Sr-Java-Developer_REQ-260075",
+        "first_seen": "2026-09-01"
+      },
+      {
+        "title": "Senior Pega Developer",
+        "location": "Richmond, Virginia",
+        "url": "https://gnw.wd1.myworkdayjobs.com/GNW/job/Richmond-Virginia/Senior-Pega-Developer_REQ-260032",
+        "first_seen": "2026-09-01"
+      },
+      {
+        "title": "Cobol Application Developer",
+        "location": "Richmond, Virginia",
+        "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Cobol-Application-Developer_REQ-250183",
+        "first_seen": "2026-09-02"
+      }
     ],
     "Altria Group": [],
     "WestRock (Smurfit WestRock)": [],
