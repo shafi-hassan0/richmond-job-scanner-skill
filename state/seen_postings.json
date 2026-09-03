@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-02T21:09:19Z",
+  "last_run": "2026-09-03T12:21:51Z",
   "companies": {
     "CoStar Group": [
       {"title": "Associate Software Engineer", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus/job/Associate-Software-Engineer---Richmond--VA_R36970", "first_seen": "2026-08-27"},
@@ -7,7 +7,9 @@
       {"title": "Software Engineer II - Backend", "location": "Richmond, VA (CoStar Tower)", "url": "https://costar.wd1.myworkdayjobs.com/costarcareers/job/US-VA-Richmond---CoStar-Tower/Software-Engineer-II---Backend_R39650", "first_seen": "2026-08-27"},
       {"title": "Software Engineer II", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/costarcareers/job/us-va-richmond/software-engineer-ii_r38034", "first_seen": "2026-08-31"},
       {"title": "Senior Software Engineer", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/US-VA-Richmond/Senior-Software-Engineer_R38033", "first_seen": "2026-08-31"},
-      {"title": "Software Engineer (React) - Research Development", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/de-CH/CoStarCareers/job/US-VA-Richmond/Software-Engineer--React----Research-Development_R37213", "first_seen": "2026-08-31"}
+      {"title": "Software Engineer (React) - Research Development", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/de-CH/CoStarCareers/job/US-VA-Richmond/Software-Engineer--React----Research-Development_R37213", "first_seen": "2026-08-31"},
+      {"title": "Senior Software Engineer- Web Enterprise, Research, and Data Services", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Senior-Software-Engineer--Web-Enterprise--Research--and-Data-Services_R35852", "first_seen": "2026-09-03"},
+      {"title": "Team Lead, Software Engineering", "location": "Richmond, VA", "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/CoStar-Group---Software-Engineer-Team-Lead_R34221", "first_seen": "2026-09-03"}
     ],
     "Dominion Energy": [
       {"title": "Senior Software Engineer", "location": "Richmond, VA", "url": "https://careers.dominionenergy.com/job/RICHMOND-Senior-Software-Engineer-VA-23227/1405041900/", "first_seen": "2026-08-29"}
@@ -72,7 +74,8 @@
       {"title": "Sr. Software Engineer Databricks", "location": "Richmond, VA", "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Sr-Software-Engineer_R0019589", "first_seen": "2026-08-31"},
       {"title": "Associate Software Engineer", "location": "Richmond, VA", "url": "https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers/job/Richmond-VA/Associate-Software-Engineer_R0018601", "first_seen": "2026-08-31"},
       {"title": "Associate Software Engineer, Data", "location": "Richmond, VA", "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Richmond-VA/Associate-Software-Engineer--Data_R0017594-1", "first_seen": "2026-08-31"},
-      {"title": "Sr. Software Engineer", "location": "Richmond, VA", "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Richmond-VA/Sr-Software-Engineer_R0020324", "first_seen": "2026-09-01"}
+      {"title": "Sr. Software Engineer", "location": "Richmond, VA", "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Richmond-VA/Sr-Software-Engineer_R0020324", "first_seen": "2026-09-01"},
+      {"title": "Microsoft Power Platform Software Engineer", "location": "Richmond, VA", "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Microsoft-Power-Platform-Software-Engineer_R0022994-1", "first_seen": "2026-09-03"}
     ],
     "Genworth Financial": [
       {"title": "Software Engineer", "location": "Richmond, Virginia", "url": "https://gnw.wd1.myworkdayjobs.com/GNW/job/Richmond-Virginia/Software-Engineer_REQ-260177", "first_seen": "2026-08-31"},
