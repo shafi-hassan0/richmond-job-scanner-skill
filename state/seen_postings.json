@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-03T21:08:42Z",
+  "last_run": "2026-09-04T12:22:07Z",
   "companies": {
     "CoStar Group": [
       {
@@ -275,6 +275,60 @@
         "location": "Richmond, VA (West Creek)",
         "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-back-end/1732/75188348512",
         "first_seen": "2026-09-03"
+      },
+      {
+        "title": "Software Engineer (Remote-Eligible)",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/software-engineer-remote-eligible/1732/39595931888",
+        "first_seen": "2026-09-04"
+      },
+      {
+        "title": "Lead Software Engineer - Capital One Software (Remote)",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-capital-one-software-remote/1732/78627852368",
+        "first_seen": "2026-09-04"
+      },
+      {
+        "title": "Senior Lead Software Engineer",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-lead-software-engineer/1732/92386334608",
+        "first_seen": "2026-09-04"
+      },
+      {
+        "title": "Lead Software Engineer, Full Stack (Risk Tech)",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-full-stack-risk-tech/1732/95299023696",
+        "first_seen": "2026-09-04"
+      },
+      {
+        "title": "Lead Software Engineer, Full Stack-IC",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-full-stack-ic/1732/97792459760",
+        "first_seen": "2026-09-04"
+      },
+      {
+        "title": "Senior Lead Software Engineer, Full Stack-IC",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-lead-software-engineer-full-stack-ic/1732/97792459584",
+        "first_seen": "2026-09-04"
+      },
+      {
+        "title": "Lead Software Engineer, Full Stack - Card Tech",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-full-stack-card-tech/1732/94554369392",
+        "first_seen": "2026-09-04"
+      },
+      {
+        "title": "Lead Software Engineer, Front End",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-front-end/1732/79018150752",
+        "first_seen": "2026-09-04"
+      },
+      {
+        "title": "Lead Software Engineer, Bank Tech",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-bank-tech/1732/89838603632",
+        "first_seen": "2026-09-04"
       }
     ],
     "CarMax": [
