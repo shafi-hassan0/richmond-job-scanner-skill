@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-07T21:09:07Z",
+  "last_run": "2026-09-08T12:21:16Z",
   "companies": {
     "CoStar Group": [
       {
@@ -360,6 +360,12 @@
         "location": "Richmond, VA (West Creek)",
         "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-full-stack-python-react/1732/70447712384",
         "first_seen": "2026-09-07"
+      },
+      {
+        "title": "Lead Software Engineer, Mobile - Shopping (Remote)",
+        "location": "Richmond, VA",
+        "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Lead-Software-Engineer--Mobile---Shopping--Remote-_R248079-1",
+        "first_seen": "2026-09-08"
       },
       {
         "title": "Lead Platform Engineer (Test Automation, SDET, Python, Selenium, Scout)",
