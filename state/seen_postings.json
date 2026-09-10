@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-09T21:07:39Z",
+  "last_run": "2026-09-10T12:20:41Z",
   "companies": {
     "CoStar Group": [
       {
@@ -522,6 +522,18 @@
         "location": "Richmond, Virginia",
         "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Cobol-Application-Developer_REQ-250183",
         "first_seen": "2026-09-02"
+      },
+      {
+        "title": "Middleware Engineer",
+        "location": "Richmond, Virginia",
+        "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Middleware-Engineer_REQ-250053-2",
+        "first_seen": "2026-09-10"
+      },
+      {
+        "title": "Senior Cloud Engineer",
+        "location": "Richmond, Virginia",
+        "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Senior-Cloud-Engineer_REQ-250341",
+        "first_seen": "2026-09-10"
       }
     ],
     "Altria Group": [],
