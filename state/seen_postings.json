@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-11T16:10:29Z",
+  "last_run": "2026-09-11T21:10:30Z",
   "companies": {
     "CoStar Group": [
       {
@@ -61,6 +61,18 @@
         "location": "Richmond, VA",
         "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Software-Engineer-II--Data-Management_R39428",
         "first_seen": "2026-09-04"
+      },
+      {
+        "title": "Senior Software Engineer (React) - Research Development",
+        "location": "Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Senior-Software-Engineer--React---Research-Development_R36647",
+        "first_seen": "2026-09-11"
+      },
+      {
+        "title": "Senior Software Engineer (C#/SQL) - Research Development",
+        "location": "Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Senior-Software-Engineer--C--SQL-_R36287",
+        "first_seen": "2026-09-11"
       }
     ],
     "Dominion Energy": [
@@ -452,6 +464,12 @@
         "location": "Richmond, VA",
         "url": "https://careers.carmax.com/us/en/job/JR-159887/Software-Engineer-II",
         "first_seen": "2026-09-01"
+      },
+      {
+        "title": "Engineer II, Robotic Process Automation",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/us/en/job/JR-147325/Engineer-II-Robotic-Process-Automation",
+        "first_seen": "2026-09-11"
       }
     ],
     "Markel": [
@@ -546,9 +564,22 @@
         "location": "Richmond, Virginia",
         "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Senior-Cloud-Engineer_REQ-250341",
         "first_seen": "2026-09-10"
+      },
+      {
+        "title": "Genworth IT Development Program Intern - Summer 2026 (Internship)",
+        "location": "Richmond, Virginia",
+        "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Genworth-IT-Development-Program-Intern---Summer-2026_REQ-250327",
+        "first_seen": "2026-09-11"
       }
     ],
-    "Altria Group": [],
+    "Altria Group": [
+      {
+        "title": "Principal Software/Firmware Engineer II",
+        "location": "Richmond, VA",
+        "url": "https://careers.altria.com/jobs/6313?lang=en-us",
+        "first_seen": "2026-09-11"
+      }
+    ],
     "WestRock (Smurfit WestRock)": [],
     "Elephant Insurance": [],
     "Performance Food Group": []
