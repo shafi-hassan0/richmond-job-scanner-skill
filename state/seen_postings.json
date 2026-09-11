@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-11T12:19:25Z",
+  "last_run": "2026-09-11T16:10:29Z",
   "companies": {
     "CoStar Group": [
       {
@@ -378,6 +378,12 @@
         "location": "Richmond, VA",
         "url": "https://www.capitalonecareers.com/job/richmond/lead-platform-engineer-test-automation-sdet-python-selenium-scout/1732/86964247872",
         "first_seen": "2026-09-07"
+      },
+      {
+        "title": "Lead Software Engineer, Back End (Bank Tech)",
+        "location": "Richmond, VA (West Creek)",
+        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-back-end-bank-tech/1732/72037219840",
+        "first_seen": "2026-09-11"
       }
     ],
     "CarMax": [
