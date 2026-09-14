@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-11T21:10:30Z",
+  "last_run": "2026-09-14T12:19:49Z",
   "companies": {
     "CoStar Group": [
       {
@@ -73,6 +73,18 @@
         "location": "Richmond, VA",
         "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Senior-Software-Engineer--C--SQL-_R36287",
         "first_seen": "2026-09-11"
+      },
+      {
+        "title": "Debt Solutions - Senior Software Engineer",
+        "location": "Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Debt-Solutions---Senior-Software-Engineer_R38909",
+        "first_seen": "2026-09-14"
+      },
+      {
+        "title": "Senior Software Engineer (React/JavaScript)",
+        "location": "Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/CoStar-Group---Senior-Software-Engineer--React-JavaScript-_R33584",
+        "first_seen": "2026-09-14"
       }
     ],
     "Dominion Energy": [
