@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-16T12:18:40Z",
+  "last_run": "2026-09-16T16:08:48Z",
   "companies": {
     "CoStar Group": [
       {
@@ -85,6 +85,12 @@
         "location": "Richmond, VA",
         "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/CoStar-Group---Senior-Software-Engineer--React-JavaScript-_R33584",
         "first_seen": "2026-09-14"
+      },
+      {
+        "title": "Software Engineer (.NET/C#)",
+        "location": "Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Software-Engineer--NET-C--_R34783",
+        "first_seen": "2026-09-16"
       }
     ],
     "Dominion Energy": [
@@ -582,6 +588,12 @@
         "location": "Richmond, Virginia",
         "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Genworth-IT-Development-Program-Intern---Summer-2026_REQ-250327",
         "first_seen": "2026-09-11"
+      },
+      {
+        "title": "Genworth IT Development Program Intern - Summer 2027 (Internship)",
+        "location": "Richmond, Virginia",
+        "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Genworth-IT-Development-Program-Intern---Summer-2027_REQ-260269-1",
+        "first_seen": "2026-09-16"
       }
     ],
     "Altria Group": [
