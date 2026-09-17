@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-16T21:08:24Z",
+  "last_run": "2026-09-17T12:21:11Z",
   "companies": {
     "CoStar Group": [
       {
@@ -184,6 +184,12 @@
         "location": "Richmond, VA",
         "url": "https://richmondnationalservices.applytojob.com/apply/SRzpUJwOIA/Sr-ML-Engineer",
         "first_seen": "2026-09-04"
+      },
+      {
+        "title": "Data Engineer (Actuarial Team)",
+        "location": "Richmond, VA",
+        "url": "https://richmondnationalservices.applytojob.com/apply/nEJlKgdVjf/Data-Engineer-Actuarial-Team",
+        "first_seen": "2026-09-17"
       }
     ],
     "Capital One": [
@@ -414,6 +420,60 @@
         "location": "Richmond, VA (West Creek)",
         "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-back-end-bank-tech/1732/72037219840",
         "first_seen": "2026-09-11"
+      },
+      {
+        "title": "Lead Software Engineer, Salesforce (Bank Tech)",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-salesforce-bank-tech/1732/90798469184",
+        "first_seen": "2026-09-17"
+      },
+      {
+        "title": "Senior Software Engineer, Salesforce - Card Tech",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-salesforce-card-tech/1732/71303768576",
+        "first_seen": "2026-09-17"
+      },
+      {
+        "title": "Senior Software Engineer, Back End (Python, Java, Node, AWS)",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-back-end-python-java-node-aws/1732/81882293376",
+        "first_seen": "2026-09-17"
+      },
+      {
+        "title": "Senior Software Engineer, Back End (Java, Python, AWS)",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-back-end-java-python-aws/1732/80037482448",
+        "first_seen": "2026-09-17"
+      },
+      {
+        "title": "Senior Software Engineer, Back End - Site Reliability/Python/AWS",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-back-end-site-reliability-python-aws/1732/88342057520",
+        "first_seen": "2026-09-17"
+      },
+      {
+        "title": "Senior Software Engineer, Back End (Python, Java, AWS)",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-back-end-python-java-aws/1732/86825844512",
+        "first_seen": "2026-09-17"
+      },
+      {
+        "title": "Senior Software Engineer Backend (Python, AWS)",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-backend-python-aws/1732/80904970336",
+        "first_seen": "2026-09-17"
+      },
+      {
+        "title": "Senior Software Engineer, Backend (Python, AWS, API)",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-backend-python-aws-api/1732/86554191712",
+        "first_seen": "2026-09-17"
+      },
+      {
+        "title": "Senior Software Engineer, Back End - Capital One Software (Remote)",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-back-end-capital-one-software-remote/1732/89196696032",
+        "first_seen": "2026-09-17"
       }
     ],
     "CarMax": [
