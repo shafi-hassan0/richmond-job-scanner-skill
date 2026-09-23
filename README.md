@@ -1,6 +1,7 @@
 # Richmond Job Scanner
 
-Tracks QA and Software Engineering job openings at a fixed list of Richmond, VA-area
+Tracks security and network job openings (Security Engineer/Analyst, SOC Analyst,
+Cybersecurity Analyst, Network Engineer/Analyst) at a fixed list of Richmond, VA-area
 employers. Used by a Claude Code scheduled cloud routine that runs daily, diffs newly
 posted roles against `state/seen_postings.json`, and reports new matches by opening/
 updating a tracking issue in this repo (which sends the owner a GitHub notification).
