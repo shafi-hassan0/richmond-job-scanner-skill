@@ -1,466 +1,197 @@
 {
-  "last_run": "2026-09-23T12:20:08Z",
+  "last_run": "2026-09-24T16:09:41Z",
   "companies": {
     "CoStar Group": [
       {
-        "title": "Software Engineer (.NET/C#)",
+        "title": "Associate Network Engineer",
         "location": "Richmond, VA",
-        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Software-Engineer--NET-C--_R34783",
-        "first_seen": "2026-09-21"
+        "url": "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus/job/Associate-Network-Engineer---Richmond--VA_R35017",
+        "first_seen": "2026-09-24"
       },
       {
-        "title": "Associate Software Engineer",
-        "location": "Richmond, VA",
-        "url": "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus/job/Associate-Software-Engineer---Richmond--VA_R36970",
-        "first_seen": "2026-08-27"
-      },
-      {
-        "title": "Software Engineer",
-        "location": "Richmond, VA",
-        "url": "https://costar.wd1.myworkdayjobs.com/CoStarCareers/job/US-VA-Richmond/Software-Engineer_R31538",
-        "first_seen": "2026-08-27"
-      },
-      {
-        "title": "Software Engineer II",
-        "location": "Richmond, VA",
-        "url": "https://costar.wd1.myworkdayjobs.com/costarcareers/job/us-va-richmond/software-engineer-ii_r38034",
-        "first_seen": "2026-08-31"
-      },
-      {
-        "title": "Senior Software Engineer",
-        "location": "Richmond, VA",
-        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/US-VA-Richmond/Senior-Software-Engineer_R38033",
-        "first_seen": "2026-08-31"
-      },
-      {
-        "title": "Software Engineer (React) - Research Development",
-        "location": "Richmond, VA",
-        "url": "https://costar.wd1.myworkdayjobs.com/de-CH/CoStarCareers/job/US-VA-Richmond/Software-Engineer--React----Research-Development_R37213",
-        "first_seen": "2026-08-31"
-      },
-      {
-        "title": "Quality Assurance Data Analyst",
-        "location": "Richmond, VA",
-        "url": "https://costar.wd1.myworkdayjobs.com/fr-FR/CoStarCareers/job/US-VA-Richmond/Quality-Assurance-Data-Analyst_R36532",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Senior Software Engineer - Web Enterprise, Research, and Data Services",
-        "location": "Richmond, VA",
-        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Senior-Software-Engineer--Web-Enterprise--Research--and-Data-Services_R35852",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Team Lead, Software Engineering",
-        "location": "Richmond, VA",
-        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/CoStar-Group---Software-Engineer-Team-Lead_R34221",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Software Engineer II - Backend",
-        "location": "Richmond, VA",
-        "url": "https://costar.wd1.myworkdayjobs.com/costarcareers/job/US-VA-Richmond---CoStar-Tower/Software-Engineer-II---Backend_R39650",
-        "first_seen": "2026-09-21"
+        "title": "Lead Cyber Threat Intelligence Engineer",
+        "location": "Arlington, VA / Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Lead-Cyber-Threat-Intelligence-Engineer_R37873",
+        "first_seen": "2026-09-24"
       }
     ],
     "Dominion Energy": [
       {
-        "title": "Senior Software Engineer",
+        "title": "Generation Cyber Security Analyst / Generation Cyber Security Sr Analyst",
         "location": "Richmond, VA",
-        "url": "https://careers.dominionenergy.com/job/RICHMOND-Senior-Software-Engineer-VA-23227/1405041900/",
-        "first_seen": "2026-08-29"
+        "url": "https://careers.dominionenergy.com/job/RICHMOND-Generation-Cyber-Security-Analyst-Generation-Cyber-Security-Sr-Analyst-VA-23219/1367201800/",
+        "first_seen": "2026-09-24"
       },
       {
-        "title": "Programmer or Sr. Programmer Analyst - AI and Emerging Technologies",
+        "title": "Senior Information Security Analyst",
         "location": "Richmond, VA",
-        "url": "https://careers.dominionenergy.com/job/RICHMOND-Programmer-or-Sr_-Programmer-Analyst-AI-and-Emerging-Technologies-VA-23219/1301633900/",
-        "first_seen": "2026-09-21"
+        "url": "https://careers.dominionenergy.com/job/RICHMOND-Senior-Information-Security-Analyst-Richmond-VA-VA-23219/1297696100/",
+        "first_seen": "2026-09-24"
       },
       {
-        "title": "Senior Programmer Analyst - AI & Emerging Technologies",
-        "location": "Richmond, VA",
-        "url": "https://careers.dominionenergy.com/job/RICHMOND-Senior-Programmer-Analyst-AI-&-Emerging-Technologies-VA-23219/1278123600/",
-        "first_seen": "2026-09-21"
+        "title": "Senior Engineer/Staff Engineer/Consulting Engineer - Cyber Security",
+        "location": "Richmond, VA or Cayce, SC",
+        "url": "https://careers.dominionenergy.com/job/CAYCE-Senior-Engineer-Staff-Engineer-Consulting-Engineer-Cyber-Security-(Richmond,-VA-or-Cayce,-SC)-SC-29033/1283915900/",
+        "first_seen": "2026-09-24"
       }
     ],
     "Honeywell": [
       {
-        "title": "Software Engr II",
+        "title": "Cyber Security Architect/Engineer II",
         "location": "Richmond, VA (3951 Westerre Pkwy)",
-        "url": "https://careers.honeywell.com/us/en/job/req482923/Software-Engr-II",
-        "first_seen": "2026-08-29"
-      },
-      {
-        "title": "Senior Software Engineer - Build and Framework Tools",
-        "location": "Richmond, VA (3951 Westerre Pkwy)",
-        "url": "https://careers.honeywell.com/ca/fr/job/HRD248753/Senior-Software-Engineer",
-        "first_seen": "2026-09-18"
-      },
-      {
-        "title": "Software Engineer II – Tools and Build Infrastructure",
-        "location": "Richmond, VA (3951 Westerre Pkwy)",
-        "url": "https://careers.honeywell.com/cn/zh/job/req478669/Software-Engineer-II-Tools-and-Build-Infrastructure",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Senior Developmental Operations Engineer",
-        "location": "Richmond, VA (3951 Westerre Pkwy)",
-        "url": "https://careers.honeywell.com/us/en/job/HRD261001/Senior-Developmental-Operations-Engineer",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Software Engineer II",
-        "location": "Richmond, VA (3951 Westerre Pkwy)",
-        "url": "https://careers.honeywell.com/en/sites/Honeywell/job/105028/?mode=location",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Sr Advanced Software Engr",
-        "location": "Richmond, VA (3951 Westerre Pkwy)",
-        "url": "https://careers.honeywell.com/nl/nl/job/req481104/Sr-Advanced-Software-Engr",
-        "first_seen": "2026-09-22"
+        "url": "https://careers.honeywell.com/en/sites/Honeywell/job/146077/?keyword=Security&mode=location",
+        "first_seen": "2026-09-24"
       }
     ],
     "CapTech Consulting": [
       {
-        "title": "Test Automation Engineer",
+        "title": "Security Analyst",
         "location": "Richmond, VA",
-        "url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000144346729-test-automation-engineer",
-        "first_seen": "2026-09-18"
-      },
-      {
-        "title": "Consulting Internship: Software Engineering (Summer 2026) (Internship)",
-        "location": "Richmond, VA",
-        "url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000084976114-consulting-internship-software-engineering-summer-2026-",
-        "first_seen": "2026-09-18"
-      },
-      {
-        "title": "Software Engineering Associate Consultant (Graduating Dec. 2026 - Summer 2027)",
-        "location": "Richmond, VA",
-        "url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000146449269-software-engineering-associate-consultant-graduating-dec-2026-summer-2027-",
-        "first_seen": "2026-09-10"
-      },
-      {
-        "title": "Full-Stack Engineer",
-        "location": "Richmond, VA",
-        "url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000120821647-full-stack-engineer",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Internship - Software Engineer Consultant (Internship)",
-        "location": "Richmond, VA",
-        "url": "https://jobs.smartrecruiters.com/CapTechConsulting/743999709504830-internship-software-engineer-consultant",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Android Software Engineer - Mobile",
-        "location": "Richmond, VA",
-        "url": "https://jobs.smartrecruiters.com/CapTechConsulting/743999743136685-android-software-engineer-mobile",
-        "first_seen": "2026-09-22"
+        "url": "https://jobs.smartrecruiters.com/CapTechConsulting/743999841824537-security-analyst",
+        "first_seen": "2026-09-24"
       }
     ],
     "Atlantic Casualty Insurance": [],
-    "Richmond National": [
-      {
-        "title": "Sr. ML Engineer",
-        "location": "Glen Allen, VA",
-        "url": "https://richmondnationalservices.applytojob.com/apply/SRzpUJwOIA/Sr-ML-Engineer",
-        "first_seen": "2026-09-21"
-      }
-    ],
+    "Richmond National": [],
     "Capital One": [
       {
-        "title": "Senior Software Engineer (Bank Tech)",
+        "title": "Cyber Security Operations Center (CSOC) Analyst",
         "location": "Richmond, VA",
-        "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Senior-Software-Engineer--Bank-Tech-_R215413-1",
-        "first_seen": "2026-08-31"
+        "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Cyber-Security-Operations-Center--CSOC--Analyst_R247308-1",
+        "first_seen": "2026-09-24"
       },
       {
-        "title": "Software Engineer, Full Stack - Capital One Software (Remote)",
-        "location": "Richmond, VA (West Creek)",
-        "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Software-Engineer--Full-Stack---Capital-One-Software--Remote-_R207148-1",
-        "first_seen": "2026-08-31"
-      },
-      {
-        "title": "Software Engineer, Full Stack",
-        "location": "Richmond, VA (West Creek)",
-        "url": "https://www.capitalonecareers.com/job/richmond/software-engineer-full-stack/1732/79833222752",
-        "first_seen": "2026-08-31"
-      },
-      {
-        "title": "Lead Software Engineer, Full Stack - Capital One Software (Remote)",
-        "location": "Richmond, VA (West Creek)",
-        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-full-stack-capital-one-software-remote/1732/77617798144",
-        "first_seen": "2026-08-31"
-      },
-      {
-        "title": "Senior Software Engineer, Full Stack",
+        "title": "Cyber Threat Detection (Security Testing), Principal Associate",
         "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/en/job/richmond/senior-software-engineer-full-stack/1732/66855644960",
-        "first_seen": "2026-09-18"
+        "url": "https://www.capitalonecareers.com/job/richmond/cyber-threat-detection-security-testing-principal-associate/1732/78959929968",
+        "first_seen": "2026-09-24"
       },
       {
-        "title": "Senior Software Engineer, Full Stack (Bank Tech)",
+        "title": "Senior Associate, Cyber Risk & Analysis - Enterprise Services Risk",
         "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-full-stack-bank-tech/1732/71314985136",
-        "first_seen": "2026-09-18"
+        "url": "https://www.capitalonecareers.com/job/richmond/senior-associate-cyber-risk-and-analysis-enterprise-services-risk/1732/87568964176",
+        "first_seen": "2026-09-24"
       },
       {
-        "title": "Senior Software Engineer, DevOps (Bank Tech)",
+        "title": "Principal Associate, Endpoint Security Engineer (AWS Endpoint Infrastructure)",
         "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-devops-bank-tech/1732/81178108768",
-        "first_seen": "2026-09-21"
+        "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Principal-Associate--Endpoint-Security-Engineer--AWS-Endpoint-Infrastructure-_R205915-1/apply/applyManually",
+        "first_seen": "2026-09-24"
       },
       {
-        "title": "Senior Software Engineer, Back End (Bank Tech)",
+        "title": "Senior Associate, Data Loss Prevention (DLP) Engineer",
         "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-back-end-bank-tech/1732/85967977392",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Senior Lead Software Engineer, Full Stack, Bank Tech",
-        "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/job/richmond/senior-lead-software-engineer-full-stack-bank-tech/1732/84767070000",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Senior Software Engineer (Finance Tech)",
-        "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-finance-tech/1732/92378350464",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Lead Software Engineer, Full Stack-IC",
-        "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-full-stack-ic/1732/100317321552",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Lead Platform Engineer (Test Automation, SDET, Python, Selenium, Scout)",
-        "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/job/richmond/lead-platform-engineer-test-automation-sdet-python-selenium-scout/1732/86964247872",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Senior Software Engineer, Full Stack (Enterprise Platforms Technology)",
-        "location": "Richmond, VA",
-        "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Senior-Software-Engineer--Full-Stack--Enterprise-Platforms-Technology-_R201199",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Software Engineer (Remote-Eligible)",
-        "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/job/richmond/software-engineer-remote-eligible/1732/39595931888",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Software Engineer, Full Stack (JavaScript, ReactJS, AWS)",
-        "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/job/richmond/software-engineer-full-stack-javascript-reactjs-aws/1732/60812464640",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Senior Lead Software Engineer, Full Stack",
-        "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/job/richmond/senior-lead-software-engineer-full-stack/1732/60463338944",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Lead Software Engineer, Systematics (Remote)",
-        "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-systematics-remote/1732/91142145232",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Lead Software Engineer, Full Stack",
-        "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-full-stack/1732/93206008224",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Lead Software Engineer, Salesforce (Bank Tech)",
-        "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-salesforce-bank-tech/1732/90798469184",
-        "first_seen": "2026-09-22"
-      },
-      {
-        "title": "Lead Software Engineer, Bank Tech",
-        "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer-bank-tech/1732/89838603632",
-        "first_seen": "2026-09-22"
-      },
-      {
-        "title": "Senior Manager, Software Engineering, Back End",
-        "location": "Richmond, VA (West Creek)",
-        "url": "https://www.capitalonecareers.com/job/richmond/senior-manager-software-engineering-back-end/1732/57326113744",
-        "first_seen": "2026-09-22"
-      },
-      {
-        "title": "Senior Software Engineer, Back End (Cloud Operations Resilience Engineering)",
-        "location": "Richmond, VA (West Creek)",
-        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-back-end-cloud-operations-resilience-engineering/1732/74034353072",
-        "first_seen": "2026-09-22"
-      },
-      {
-        "title": "Sr. Software Engineer (Full stack)",
-        "location": "Richmond, VA (West Creek)",
-        "url": "https://www.capitalonecareers.com/job/richmond/sr-software-engineer-full-stack/1732/61593464832",
-        "first_seen": "2026-09-22"
-      },
-      {
-        "title": "Senior Lead Software Engineer, Back End",
-        "location": "Richmond, VA",
-        "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Senior-Lead-Software-Engineer--Back-End_R229479-2",
-        "first_seen": "2026-09-23"
-      },
-      {
-        "title": "Senior Software Engineer, Back End",
-        "location": "Richmond, VA",
-        "url": "https://www.capitalonecareers.com/job/richmond/senior-software-engineer-back-end/1732/87877045568",
-        "first_seen": "2026-09-23"
+        "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Senior-Associate--Data-Loss-Prevention--DLP--Engineer_R208754-1",
+        "first_seen": "2026-09-24"
       }
     ],
     "CarMax": [
       {
-        "title": "Software Engineer II - MDM",
+        "title": "Sr. Analyst, Cybersecurity",
         "location": "Richmond, VA",
-        "url": "https://careers.carmax.com/us/en/job/JR-157876/Software-Engineer-II-MDM",
-        "first_seen": "2026-08-27"
+        "url": "https://careers.carmax.com/sr-analyst-cybersecurity/job/A4B28FD380439CB475C5F55B327D43B1",
+        "first_seen": "2026-09-24"
       },
       {
-        "title": "Senior Software Engineer",
+        "title": "Analyst II, Cybersecurity - Information Risk Management",
         "location": "Richmond, VA",
-        "url": "https://careers.carmax.com/us/en/job/JR-152628/Senior-Software-Engineer",
-        "first_seen": "2026-08-27"
+        "url": "https://careers.carmax.com/analyst-ii-cybersecurity-information-risk-management/job/5277E10DD31C9CD6B337BE5D71EFA47F",
+        "first_seen": "2026-09-24"
       },
       {
-        "title": "Engineer II, Software",
+        "title": "Engineer II, Cybersecurity",
         "location": "Richmond, VA",
-        "url": "https://carmax.wd1.myworkdayjobs.com/External/job/Corporate---Richmond/Engineer-II--Software_JR-174861/apply",
-        "first_seen": "2026-08-27"
+        "url": "https://careers.carmax.com/us/en/job/JR-144117/Engineer-II-Cybersecurity",
+        "first_seen": "2026-09-24"
       },
       {
-        "title": "Engineer II, Quality",
+        "title": "Sr. Engineer, Cybersecurity",
         "location": "Richmond, VA",
-        "url": "https://careers.carmax.com/us/en/job/JR-156267/Engineer-II-Quality",
-        "first_seen": "2026-08-31"
+        "url": "https://careers.carmax.com/us/en/job/JR-151492/Sr-Engineer-Cybersecurity",
+        "first_seen": "2026-09-24"
       },
       {
-        "title": "Software Engineer II",
+        "title": "Senior Manager, Vulnerability Management and Application Security",
         "location": "Richmond, VA",
-        "url": "https://careers.carmax.com/us/en/job/JR-159887/Software-Engineer-II",
-        "first_seen": "2026-09-01"
-      },
-      {
-        "title": "Sr Engineer, Quality",
-        "location": "Richmond, VA",
-        "url": "https://careers.carmax.com/us/en/job/JR-160921/Sr-Engineer-Quality",
-        "first_seen": "2026-09-18"
-      },
-      {
-        "title": "Principal Software Engineer",
-        "location": "Richmond, VA",
-        "url": "https://careers.carmax.com/us/en/job/JR-165547/Principal-Software-Engineer",
-        "first_seen": "2026-09-18"
-      },
-      {
-        "title": "Sr. Principal Engineer, Software - Workforce Technology",
-        "location": "Richmond, VA",
-        "url": "https://careers.carmax.com/us/en/job/JR-160425/Sr-Principal-Engineer-Software-Workforce-Technology",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Sr Principal Software Engineer, Salesforce",
-        "location": "Richmond, VA",
-        "url": "https://careers.carmax.com/us/en/job/JR-055459/Sr-Principal-Software-Engineer-Salesforce",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Senior Software Engineer, Oracle Cloud",
-        "location": "Richmond, VA",
-        "url": "https://careers.carmax.com/senior-software-engineer-oracle-cloud/job/365F4F929D8EA8B00EFD36223BE6D534",
-        "first_seen": "2026-09-21"
-      },
-      {
-        "title": "Principal Software Engineer, SCM",
-        "location": "Richmond, VA",
-        "url": "https://careers.carmax.com/us/en/job/JR-161651/Principal-Software-Engineer-SCM",
-        "first_seen": "2026-09-23"
+        "url": "https://careers.carmax.com/senior-manager-vulnerability-management-and-application-security/job/EADF41502431E1181F880C9287291921",
+        "first_seen": "2026-09-24"
       }
     ],
     "Markel": [
       {
-        "title": "Software Engineer",
+        "title": "Security Engineer",
         "location": "Richmond, VA",
-        "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Richmond-VA/Software-Engineer_R0022348",
-        "first_seen": "2026-09-18"
+        "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Security-Engineer_R0020990",
+        "first_seen": "2026-09-24"
       },
       {
-        "title": "Software Engineer",
-        "location": "Richmond, VA",
-        "url": "https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers/job/Richmond-VA/Software-Engineer_R0022945-1",
-        "first_seen": "2026-08-31"
-      },
-      {
-        "title": "Principal Software Engineer",
-        "location": "Richmond, VA",
-        "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Richmond-VA/Principal-Software-Engineer_R0021853",
-        "first_seen": "2026-08-27"
-      },
-      {
-        "title": "Sr. Software Engineer",
-        "location": "Richmond, VA",
-        "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Richmond-VA/Sr-Software-Engineer_R0020324",
-        "first_seen": "2026-09-01"
-      },
-      {
-        "title": "Associate Software Engineer, Data",
-        "location": "Richmond, VA",
-        "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Richmond-VA/Associate-Software-Engineer--Data_R0017594-1",
-        "first_seen": "2026-09-18"
-      },
-      {
-        "title": "Associate Software Engineer",
-        "location": "Richmond, VA",
-        "url": "https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers/job/Richmond-VA/Associate-Software-Engineer_R0018601",
-        "first_seen": "2026-09-18"
+        "title": "Cybersecurity Risk & Reporting Analyst",
+        "location": "Richmond, VA (hybrid)",
+        "url": "https://markelcorp.wd5.myworkdayjobs.com/en-US/GlobalCareers/job/Cybersecurity-Risk---Reporting-Analyst_R0021711",
+        "first_seen": "2026-09-24"
       }
     ],
     "Genworth Financial": [
       {
-        "title": "Software Engineer",
+        "title": "Network Security Engineer",
         "location": "Richmond, Virginia",
-        "url": "https://gnw.wd1.myworkdayjobs.com/GNW/job/Richmond-Virginia/Software-Engineer_REQ-260177",
-        "first_seen": "2026-08-31"
+        "url": "https://careers.genworth.com/us/en/job/GFOGFYUSREQ250137EXTERNALENUS/Network-Security-Engineer",
+        "first_seen": "2026-09-24"
       },
       {
-        "title": "Senior Java Developer",
+        "title": "Senior Network Security Engineer",
         "location": "Richmond, Virginia",
-        "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Richmond-Virginia/Senior-Java-Developer_REQ-260215",
-        "first_seen": "2026-08-31"
+        "url": "https://careers.genworth.com/us/en/job/GFOGFYUSREQ240486EXTERNALENUS/Senior-Network-Security-Engineer",
+        "first_seen": "2026-09-24"
       },
       {
-        "title": "Full Stack Java Developer",
+        "title": "Data Security Analyst",
         "location": "Richmond, Virginia",
-        "url": "https://gnw.wd1.myworkdayjobs.com/en-US/gnw/job/Richmond-Virginia/Full-Stack-Java-Developer_REQ-250493",
-        "first_seen": "2026-08-31"
+        "url": "https://careers.genworth.com/us/en/job/GFOGFYUSREQ260217EXTERNALENUS/Data-Security-Analyst",
+        "first_seen": "2026-09-24"
       },
       {
-        "title": "Sr Java Developer",
+        "title": "Senior Security Engineer, Application",
         "location": "Richmond, Virginia",
-        "url": "https://gnw.wd1.myworkdayjobs.com/es/GNW/job/Richmond-Virginia/Sr-Java-Developer_REQ-260075",
-        "first_seen": "2026-09-01"
-      },
-      {
-        "title": "Genworth IT Development Program Intern – Summer 2027 (Internship)",
-        "location": "Richmond, Virginia",
-        "url": "https://gnw.wd1.myworkdayjobs.com/GNW/job/Richmond-Virginia/Genworth-IT-Development-Program-Intern---Summer-2027_REQ-260269-1",
-        "first_seen": "2026-09-22"
+        "url": "https://careers.genworth.com/us/en/job/GFOGFYUSREQ260216EXTERNALENUS/Senior-Security-Engineer-Application",
+        "first_seen": "2026-09-24"
       }
     ],
-    "Altria Group": [],
+    "Altria Group": [
+      {
+        "title": "Network Engineer",
+        "location": "Richmond, Virginia",
+        "url": "https://careers.altria.com/jobs/3731?lang=en-us",
+        "first_seen": "2026-09-24"
+      },
+      {
+        "title": "Network Architect",
+        "location": "Richmond, Virginia",
+        "url": "https://careers.altria.com/jobs/4616?lang=en-us",
+        "first_seen": "2026-09-24"
+      },
+      {
+        "title": "Senior DLP & Insider Threat Lead",
+        "location": "Richmond, Virginia (remote-open)",
+        "url": "https://careers.altria.com/jobs/6540?lang=en-us",
+        "first_seen": "2026-09-24"
+      }
+    ],
     "WestRock (Smurfit WestRock)": [],
     "Elephant Insurance": [],
-    "Performance Food Group": []
+    "Performance Food Group": [
+      {
+        "title": "Information Security Analyst (Risk & Compliance)",
+        "location": "Richmond, VA",
+        "url": "https://jobs.performancefoodservice.com/job/information-security-analyst-risk-compliance/richmond-va/151076BR/",
+        "first_seen": "2026-09-24"
+      },
+      {
+        "title": "Senior SAP Security Analyst",
+        "location": "Richmond, VA",
+        "url": "https://jobs.performancefoodservice.com/job/senior-sap-security-analyst/richmond-VA/138565BR/",
+        "first_seen": "2026-09-24"
+      }
+    ]
   }
 }
