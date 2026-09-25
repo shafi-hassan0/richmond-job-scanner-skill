@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-24T21:10:12Z",
+  "last_run": "2026-09-25T12:19:34Z",
   "companies": {
     "CoStar Group": [
       {
@@ -31,6 +31,12 @@
         "location": "Arlington, VA / Richmond, VA",
         "url": "https://costar.wd1.myworkdayjobs.com/de-CH/CoStarCareers/job/US-VA-Arlington/Offensive-Security-Engineer_R37033-1",
         "first_seen": "2026-09-24"
+      },
+      {
+        "title": "Lead Cyber Threat Intelligence Engineer",
+        "location": "Arlington, VA / Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Lead-Cyber-Threat-Intelligence-Engineer_R37873",
+        "first_seen": "2026-09-25"
       }
     ],
     "Dominion Energy": [
@@ -45,6 +51,12 @@
         "location": "Richmond, VA or Columbia, SC",
         "url": "https://careers.dominionenergy.com/job/RICHMOND-Sr_-Network-AnalystNetwork-Specialist-Richmond-VA-or-Columbia-SC-VA-23219/1265112900/",
         "first_seen": "2026-09-24"
+      },
+      {
+        "title": "Network Analyst/Senior Network Analyst",
+        "location": "Richmond, VA or Columbia, SC",
+        "url": "https://careers.dominionenergy.com/job/RICHMOND-Network-AnalystSenior-Network-Analyst-Richmond-VA-or-Columbia-SC-VA-23219/1304324300/",
+        "first_seen": "2026-09-25"
       }
     ],
     "Honeywell": [],
@@ -84,6 +96,18 @@
         "location": "Richmond, VA",
         "url": "https://careers.carmax.com/analyst-ii-cybersecurity-information-risk-management/job/5277E10DD31C9CD6B337BE5D71EFA47F",
         "first_seen": "2026-09-24"
+      },
+      {
+        "title": "Sr. Analyst, Cybersecurity",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/sr-analyst-cybersecurity/job/A4B28FD380439CB475C5F55B327D43B1",
+        "first_seen": "2026-09-25"
+      },
+      {
+        "title": "Sr. Engineer, Cybersecurity",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/us/en/job/JR-151492/Sr-Engineer-Cybersecurity",
+        "first_seen": "2026-09-25"
       }
     ],
     "Markel": [
@@ -106,6 +130,12 @@
         "location": "Richmond, Virginia",
         "url": "https://gnw.wd1.myworkdayjobs.com/en-US/Genworth_Confidential/job/Senior-Network-Security-Engineer_REQ-250538",
         "first_seen": "2026-09-24"
+      },
+      {
+        "title": "Lead Network Engineer",
+        "location": "Richmond, VA / Lynchburg, VA",
+        "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Lead-Network-Engineer_REQ-260266-1",
+        "first_seen": "2026-09-25"
       }
     ],
     "Altria Group": [
