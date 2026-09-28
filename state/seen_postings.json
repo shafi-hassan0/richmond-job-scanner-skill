@@ -1,13 +1,7 @@
 {
-  "last_run": "2026-09-28T12:20:18Z",
+  "last_run": "2026-09-28T16:13:05Z",
   "companies": {
     "CoStar Group": [
-      {
-        "title": "Associate Network Engineer",
-        "location": "Richmond, VA",
-        "url": "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus/job/Associate-Network-Engineer---Richmond--VA_R35017",
-        "first_seen": "2026-09-24"
-      },
       {
         "title": "Lead Security Engineer",
         "location": "Arlington, VA / Richmond, VA",
@@ -27,22 +21,22 @@
         "first_seen": "2026-09-24"
       },
       {
-        "title": "Senior Offensive Security Engineer",
+        "title": "Senior Network Engineer",
         "location": "Arlington, VA / Richmond, VA",
-        "url": "https://costar.wd1.myworkdayjobs.com/de-CH/CoStarCareers/job/US-VA-Arlington/Offensive-Security-Engineer_R37033-1",
-        "first_seen": "2026-09-24"
-      },
-      {
-        "title": "Lead Cyber Threat Intelligence Engineer",
-        "location": "Arlington, VA / Richmond, VA",
-        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Lead-Cyber-Threat-Intelligence-Engineer_R37873",
-        "first_seen": "2026-09-25"
+        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Senior-Network-Engineer_R36011",
+        "first_seen": "2026-09-28"
       },
       {
         "title": "Lead Network Engineer- Palo Alto Firewalls",
         "location": "Arlington, VA / Richmond, VA",
         "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Lead-Network-Engineer--Palo-Alto-Firewalls_R36487",
         "first_seen": "2026-09-28"
+      },
+      {
+        "title": "Lead Cyber Threat Intelligence Engineer",
+        "location": "Arlington, VA / Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/en-US/CoStarCareers/job/Lead-Cyber-Threat-Intelligence-Engineer_R37873",
+        "first_seen": "2026-09-25"
       }
     ],
     "Dominion Energy": [
@@ -71,19 +65,20 @@
         "first_seen": "2026-09-28"
       },
       {
-        "title": "Senior Information Security Analyst - Richmond VA",
+        "title": "Intern - Cyber Security",
         "location": "Richmond, VA",
-        "url": "https://careers.dominionenergy.com/job/RICHMOND-Senior-Information-Security-Analyst-Richmond-VA-VA-23219/1297696100/",
-        "first_seen": "2026-09-28"
-      },
-      {
-        "title": "Intermediate/Senior Information Security Analyst - Richmond VA or Columbia SC",
-        "location": "Richmond, VA or Columbia, SC",
-        "url": "https://careers.dominionenergy.com/job/CAYCE-IntermediateSenior-InformationSecurity-Analyst-Richmond-VA-or-Columbia-SC-SC-29033/1362057200/",
+        "url": "https://careers.dominionenergy.com/job/RICHMOND-Intern-Cyber-Security-VA-23219/1328978600/",
         "first_seen": "2026-09-28"
       }
     ],
-    "Honeywell": [],
+    "Honeywell": [
+      {
+        "title": "Advanced Cyber Security Integration Engineer, (M&A) - Remote",
+        "location": "Remote (United States)",
+        "url": "https://careers.honeywell.com/us/en/job/req485969/Advanced-Cyber-Security-Integration-Engineer-Remote",
+        "first_seen": "2026-09-28"
+      }
+    ],
     "CapTech Consulting": [
       {
         "title": "Security Analyst",
@@ -100,13 +95,25 @@
         "location": "Richmond, VA / McLean, VA",
         "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Cyber-Security-Operations-Center--CSOC--Analyst_R247308-1",
         "first_seen": "2026-09-24"
+      },
+      {
+        "title": "Principal Associate, Cyber Risk & Analysis (Technology and Cyber Change & Execution)",
+        "location": "Richmond, VA",
+        "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Principal-Associate--Cyber-Risk---Analysis--Technology-and-Cyber-Change--Execution-_R213423-1",
+        "first_seen": "2026-09-28"
+      },
+      {
+        "title": "DevOps Network Engineer",
+        "location": "McLean, VA / Plano, TX / Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/mclean/devops-network-engineer/1732/26170437056",
+        "first_seen": "2026-09-28"
       }
     ],
     "CarMax": [
       {
         "title": "Engineer II, Cybersecurity",
         "location": "Richmond, VA",
-        "url": "https://careers.carmax.com/engineer-ii-cybersecurity/job/CE48C325C054D47D92BA53031552915D",
+        "url": "https://careers.carmax.com/engineer-ii-cybersecurity/job/AB51011C4B18FDE63BECEED6D25D381D",
         "first_seen": "2026-09-24"
       },
       {
@@ -126,6 +133,18 @@
         "location": "Richmond, VA",
         "url": "https://careers.carmax.com/us/en/job/JR-151492/Sr-Engineer-Cybersecurity",
         "first_seen": "2026-09-25"
+      },
+      {
+        "title": "Principal Network Engineer",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/us/en/job/JR-153054/Principal-Network-Engineer",
+        "first_seen": "2026-09-28"
+      },
+      {
+        "title": "Senior Network Engineer",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/us/en/job/JR-150923/Senior-Network-Engineer",
+        "first_seen": "2026-09-28"
       }
     ],
     "Markel": [
@@ -168,6 +187,12 @@
         "location": "Richmond, Virginia",
         "url": "https://careers.altria.com/jobs/4731?lang=en-us",
         "first_seen": "2026-09-28"
+      },
+      {
+        "title": "Sr. Security Incident Response Lead",
+        "location": "Richmond, Virginia",
+        "url": "https://careers.altria.com/jobs/3968?lang=en-us",
+        "first_seen": "2026-09-28"
       }
     ],
     "WestRock (Smurfit WestRock)": [],
@@ -178,12 +203,6 @@
         "location": "Richmond, VA",
         "url": "https://jobs.performancefoodservice.com/job/information-security-analyst-risk-compliance/richmond-va/151076BR/",
         "first_seen": "2026-09-24"
-      },
-      {
-        "title": "Senior SAP Security Analyst",
-        "location": "Richmond, VA",
-        "url": "https://jobs.performancefoodservice.com/job/senior-sap-security-analyst/richmond-VA/138565BR/",
-        "first_seen": "2026-09-28"
       }
     ]
   }
