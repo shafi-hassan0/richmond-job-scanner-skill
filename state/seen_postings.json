@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-28T16:13:05Z",
+  "last_run": "2026-09-29T16:09:04Z",
   "companies": {
     "CoStar Group": [
       {
@@ -69,6 +69,12 @@
         "location": "Richmond, VA",
         "url": "https://careers.dominionenergy.com/job/RICHMOND-Intern-Cyber-Security-VA-23219/1328978600/",
         "first_seen": "2026-09-28"
+      },
+      {
+        "title": "Intermediate/Senior Information Security Analyst",
+        "location": "Richmond, VA or Columbia, SC",
+        "url": "https://careers.dominionenergy.com/job/CAYCE-IntermediateSenior-InformationSecurity-Analyst-Richmond-VA-or-Columbia-SC-SC-29033/1362057200/",
+        "first_seen": "2026-09-29"
       }
     ],
     "Honeywell": [
@@ -145,6 +151,12 @@
         "location": "Richmond, VA",
         "url": "https://careers.carmax.com/us/en/job/JR-150923/Senior-Network-Engineer",
         "first_seen": "2026-09-28"
+      },
+      {
+        "title": "Engineer II, Cybersecurity - Application Security",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/engineer-ii-cybersecurity-application-security/job/E12CBD251CB27267B0041B7F1D6F85E4",
+        "first_seen": "2026-09-29"
       }
     ],
     "Markel": [
