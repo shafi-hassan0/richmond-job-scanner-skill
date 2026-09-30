@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-29T16:09:04Z",
+  "last_run": "2026-09-30T12:19:50Z",
   "companies": {
     "CoStar Group": [
       {
@@ -75,6 +75,18 @@
         "location": "Richmond, VA or Columbia, SC",
         "url": "https://careers.dominionenergy.com/job/CAYCE-IntermediateSenior-InformationSecurity-Analyst-Richmond-VA-or-Columbia-SC-SC-29033/1362057200/",
         "first_seen": "2026-09-29"
+      },
+      {
+        "title": "Intern - Technical Security",
+        "location": "Richmond, VA",
+        "url": "https://careers.dominionenergy.com/job/RICHMOND-Intern-Technical-Security-VA-23219/1328985400/",
+        "first_seen": "2026-09-30"
+      },
+      {
+        "title": "Network Specialist - Power Generation Controls and Operational Technology",
+        "location": "Richmond, VA",
+        "url": "https://careers.dominionenergy.com/job/RICHMOND-Power-Generation-Network-Specialist-VA-23219/721114700/",
+        "first_seen": "2026-09-30"
       }
     ],
     "Honeywell": [
@@ -113,6 +125,12 @@
         "location": "McLean, VA / Plano, TX / Richmond, VA",
         "url": "https://www.capitalonecareers.com/job/mclean/devops-network-engineer/1732/26170437056",
         "first_seen": "2026-09-28"
+      },
+      {
+        "title": "Cyber Threat Detection (Security Testing), Principal Associate",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/cyber-threat-detection-security-testing-principal-associate/1732/78959929968",
+        "first_seen": "2026-09-30"
       }
     ],
     "CarMax": [
@@ -157,6 +175,12 @@
         "location": "Richmond, VA",
         "url": "https://careers.carmax.com/engineer-ii-cybersecurity-application-security/job/E12CBD251CB27267B0041B7F1D6F85E4",
         "first_seen": "2026-09-29"
+      },
+      {
+        "title": "Principal Engineer - Network, Cloud and Identity",
+        "location": "Richmond, VA (Richmond Midtown Office / Plano, TX hybrid)",
+        "url": "https://careers.carmax.com/principal-engineer-network-cloud-and-identity/job/5A618BA6DECD7DC6984E17BC85248584",
+        "first_seen": "2026-09-30"
       }
     ],
     "Markel": [
@@ -215,6 +239,12 @@
         "location": "Richmond, VA",
         "url": "https://jobs.performancefoodservice.com/job/information-security-analyst-risk-compliance/richmond-va/151076BR/",
         "first_seen": "2026-09-24"
+      },
+      {
+        "title": "Senior SAP Security Analyst",
+        "location": "Richmond, VA",
+        "url": "https://jobs.performancefoodservice.com/job/senior-sap-security-analyst/richmond-VA/138565BR/",
+        "first_seen": "2026-09-30"
       }
     ]
   }
