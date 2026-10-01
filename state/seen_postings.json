@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-01T12:20:18Z",
+  "last_run": "2026-10-01T21:10:02Z",
   "companies": {
     "CoStar Group": [
       {
@@ -137,6 +137,12 @@
         "location": "McLean, VA / Plano, TX / Richmond, VA",
         "url": "https://www.capitalonecareers.com/job/mclean/devops-network-engineer/1732/26170437056",
         "first_seen": "2026-09-28"
+      },
+      {
+        "title": "Cyber Threat Detection (Security Testing), Principal Associate",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/richmond/cyber-threat-detection-security-testing-principal-associate/1732/78959929968",
+        "first_seen": "2026-10-01"
       }
     ],
     "CarMax": [
@@ -181,6 +187,12 @@
         "location": "Richmond, VA",
         "url": "https://careers.carmax.com/engineer-ii-cybersecurity-application-security/job/E12CBD251CB27267B0041B7F1D6F85E4",
         "first_seen": "2026-09-29"
+      },
+      {
+        "title": "Senior Manager, Vulnerability Management and Application Security",
+        "location": "Richmond, VA",
+        "url": "https://careers.carmax.com/senior-manager-vulnerability-management-and-application-security/job/EADF41502431E1181F880C9287291921",
+        "first_seen": "2026-10-01"
       }
     ],
     "Markel": [
@@ -229,6 +241,12 @@
         "location": "Richmond, Virginia",
         "url": "https://careers.altria.com/jobs/3968?lang=en-us",
         "first_seen": "2026-09-28"
+      },
+      {
+        "title": "Network Architect",
+        "location": "Richmond, Virginia",
+        "url": "https://careers.altria.com/jobs/4616?lang=en-us",
+        "first_seen": "2026-10-01"
       }
     ],
     "WestRock (Smurfit WestRock)": [],
@@ -239,6 +257,12 @@
         "location": "Richmond, VA",
         "url": "https://jobs.performancefoodservice.com/job/information-security-analyst-risk-compliance/richmond-va/151076BR/",
         "first_seen": "2026-09-24"
+      },
+      {
+        "title": "Network Services Manager",
+        "location": "Richmond, VA (West Creek-Richmond Corp)",
+        "url": "https://jobs.performancefoodservice.com/job/network-services-manager/richmond-va/151516BR/",
+        "first_seen": "2026-10-01"
       }
     ]
   }
