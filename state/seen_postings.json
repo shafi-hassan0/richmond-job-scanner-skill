@@ -1,7 +1,13 @@
 {
-  "last_run": "2026-10-01T21:10:02Z",
+  "last_run": "2026-10-02T21:09:14Z",
   "companies": {
     "CoStar Group": [
+      {
+        "title": "Associate Network Engineer",
+        "location": "Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus/job/Associate-Network-Engineer---Richmond--VA_R35017",
+        "first_seen": "2026-10-02"
+      },
       {
         "title": "Lead Security Engineer",
         "location": "Arlington, VA / Richmond, VA",
@@ -40,6 +46,12 @@
       }
     ],
     "Dominion Energy": [
+      {
+        "title": "Intern- Technical Security",
+        "location": "Richmond, VA",
+        "url": "https://careers.dominionenergy.com/job/RICHMOND-Intern-Technical-Security-VA-23219/1328985400/",
+        "first_seen": "2026-10-02"
+      },
       {
         "title": "Generation Cyber Security Analyst / Generation Cyber Security Sr Analyst",
         "location": "Richmond, VA",
@@ -120,6 +132,12 @@
     "Atlantic Casualty Insurance": [],
     "Richmond National": [],
     "Capital One": [
+      {
+        "title": "Senior Associate, Cyber Risk Specialist Identity & Access Management | Retail Bank",
+        "location": "Richmond, VA / McLean, VA",
+        "url": "https://www.capitalonecareers.com/job/mclean/senior-associate-cyber-risk-specialist-identity-and-access-management-retail-bank/1732/99018776848",
+        "first_seen": "2026-10-02"
+      },
       {
         "title": "Cyber Security Operations Center (CSOC) Analyst",
         "location": "Richmond, VA / McLean, VA",
