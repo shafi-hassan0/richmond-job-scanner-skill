@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-06T21:08:45Z",
+  "last_run": "2026-10-07T12:19:44Z",
   "companies": {
     "CoStar Group": [
       {
@@ -111,6 +111,12 @@
         "location": "Richmond, VA",
         "url": "https://careers.dominionenergy.com/job/RICHMOND-Associate-Cyber-Security-Analyst%2C-Cyber-Security-Analyst-or-Senior-Cyber-Security-Analyst-VA-23219/1284782800",
         "first_seen": "2026-09-30"
+      },
+      {
+        "title": "Intern - Security Solutions",
+        "location": "Richmond, VA",
+        "url": "https://careers.dominionenergy.com/job/RICHMOND-Intern-Security-Solutions-VA-23219/1432421000/",
+        "first_seen": "2026-10-07"
       }
     ],
     "Honeywell": [
@@ -125,6 +131,36 @@
         "location": "Remote (United States)",
         "url": "https://careers.honeywell.com/us/en/job/HRD255070/Advanced-Splunk-Security-Engineer-REMOTE",
         "first_seen": "2026-10-06"
+      },
+      {
+        "title": "Lead Cyber Security Architect/Engineer (ServiceNow) - Remote",
+        "location": "Remote (United States)",
+        "url": "https://careers.honeywell.com/us/en/job/HRD255007/Lead-Cyber-Security-Architect-Engineer-ServiceNow-Remote",
+        "first_seen": "2026-10-07"
+      },
+      {
+        "title": "Network Security Engineer - REMOTE",
+        "location": "Remote (United States)",
+        "url": "https://careers.honeywell.com/us/en/job/req482140/Network-Security-Engineer-REMOTE",
+        "first_seen": "2026-10-07"
+      },
+      {
+        "title": "Cyber Security Architect - Engineer II - (PAM) REMOTE",
+        "location": "Remote (United States)",
+        "url": "https://careers.honeywell.com/us/en/job/HRD232790/Cyber-Security-Architect-Engineer-II-PAM-REMOTE",
+        "first_seen": "2026-10-07"
+      },
+      {
+        "title": "Cyber Security Architect/Engineer II - Active Directory/IAM",
+        "location": "Remote (United States)",
+        "url": "https://careers.honeywell.com/en/sites/Honeywell/job/146440/?keyword=SW-Cyber-Security&mode=location",
+        "first_seen": "2026-10-07"
+      },
+      {
+        "title": "Cyber Security Architect/Engineer II",
+        "location": "Remote (United States)",
+        "url": "https://careers.honeywell.com/en/sites/Honeywell/job/146077",
+        "first_seen": "2026-10-07"
       }
     ],
     "CapTech Consulting": [
