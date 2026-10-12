@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-09T16:09:32Z",
+  "last_run": "2026-10-12T16:10:07Z",
   "companies": {
     "CoStar Group": [
       {
@@ -125,6 +125,24 @@
         "location": "Remote (United States)",
         "url": "https://careers.honeywell.com/us/en/job/HRD255070/Advanced-Splunk-Security-Engineer-REMOTE",
         "first_seen": "2026-10-06"
+      },
+      {
+        "title": "Network Security Engineer - REMOTE",
+        "location": "Remote (United States)",
+        "url": "https://careers.honeywell.com/us/en/job/req482140/Network-Security-Engineer-REMOTE",
+        "first_seen": "2026-10-12"
+      },
+      {
+        "title": "Lead Cyber Security Architect/Engineer (ServiceNow) - Remote",
+        "location": "Remote (United States)",
+        "url": "https://careers.honeywell.com/us/en/job/HRD255007/Lead-Cyber-Security-Architect-Engineer-ServiceNow-Remote",
+        "first_seen": "2026-10-12"
+      },
+      {
+        "title": "Cyber Security Architect - Engineer II - (PAM) REMOTE",
+        "location": "Remote (United States)",
+        "url": "https://careers.honeywell.com/us/en/job/HRD232790/Cyber-Security-Architect-Engineer-II-PAM-REMOTE",
+        "first_seen": "2026-10-12"
       }
     ],
     "CapTech Consulting": [
