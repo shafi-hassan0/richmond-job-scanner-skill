@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-14T12:19:55Z",
+  "last_run": "2026-10-15T12:19:17Z",
   "companies": {
     "CoStar Group": [
       {
@@ -209,6 +209,12 @@
         "location": "McLean, VA / Plano, TX / Richmond, VA",
         "url": "https://www.capitalonecareers.com/job/mclean/director-security-engineer/1732/101704949984",
         "first_seen": "2026-10-13"
+      },
+      {
+        "title": "Principal Associate, Cyber Security Logging",
+        "location": "McLean, VA / Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/mclean/principal-associate-cyber-security-logging/1732/101582621008",
+        "first_seen": "2026-10-15"
       }
     ],
     "CarMax": [
