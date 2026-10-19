@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-15T12:19:17Z",
+  "last_run": "2026-10-19T12:27:37Z",
   "companies": {
     "CoStar Group": [
       {
@@ -215,6 +215,12 @@
         "location": "McLean, VA / Richmond, VA",
         "url": "https://www.capitalonecareers.com/job/mclean/principal-associate-cyber-security-logging/1732/101582621008",
         "first_seen": "2026-10-15"
+      },
+      {
+        "title": "Manager, Cyber Security (Third Party Risk)",
+        "location": "McLean, VA / Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/mclean/manager-cyber-security-third-party-risk/1732/100950231088",
+        "first_seen": "2026-10-19"
       }
     ],
     "CarMax": [
