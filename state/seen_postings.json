@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-20T12:20:41Z",
+  "last_run": "2026-10-20T16:07:00Z",
   "companies": {
     "CoStar Group": [
       {
@@ -317,6 +317,12 @@
         "location": "Richmond, VA / Lynchburg, VA",
         "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Lead-Network-Engineer_REQ-260266-1",
         "first_seen": "2026-09-25"
+      },
+      {
+        "title": "Senior Network Engineer",
+        "location": "Richmond, VA (hybrid, Tue-Thu in office)",
+        "url": "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Senior-Network-Engineer_REQ-260391",
+        "first_seen": "2026-10-20"
       }
     ],
     "Altria Group": [
