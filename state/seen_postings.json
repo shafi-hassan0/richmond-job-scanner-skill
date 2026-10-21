@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-21T16:09:00Z",
+  "last_run": "2026-10-21T21:09:03Z",
   "companies": {
     "CoStar Group": [
       {
@@ -123,6 +123,18 @@
         "location": "Richmond, VA, US 23219 (+1 more)",
         "url": "https://careers.dominionenergy.com/go/Telecom-Jobs-in-Richmond/3484500/",
         "first_seen": "2026-10-19"
+      },
+      {
+        "title": "Associate Network Security Engineer",
+        "location": "Richmond, VA",
+        "url": "https://careers.dominionenergy.com/job/RICHMOND-Associate-Network-Security-Engineer-VA-23219/1427464600/",
+        "first_seen": "2026-10-21"
+      },
+      {
+        "title": "Intern - Security Solutions",
+        "location": "Richmond, VA",
+        "url": "https://careers.dominionenergy.com/job/RICHMOND-Intern-Security-Solutions-VA-23219/1432421000/",
+        "first_seen": "2026-10-21"
       }
     ],
     "Honeywell": [
