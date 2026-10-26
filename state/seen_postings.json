@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-26T16:16:15Z",
+  "last_run": "2026-10-26T21:09:55Z",
   "companies": {
     "CoStar Group": [
       {
@@ -7,6 +7,12 @@
         "location": "Richmond, VA",
         "url": "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus/job/Associate-Network-Engineer---Richmond--VA_R35017",
         "first_seen": "2026-10-02"
+      },
+      {
+        "title": "Security Engineer Intern - Richmond, VA",
+        "location": "Richmond, VA",
+        "url": "https://costar.wd1.myworkdayjobs.com/Costar_Campus/job/US-VA-Richmond/Security-Engineer-Intern---Richmond--VA_R39726",
+        "first_seen": "2026-10-26"
       },
       {
         "title": "Lead Security Engineer",
