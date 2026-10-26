@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-23T16:11:31Z",
+  "last_run": "2026-10-26T12:42:41Z",
   "companies": {
     "CoStar Group": [
       {
@@ -263,6 +263,36 @@
         "location": "Richmond, VA / McLean, VA / New York, NY / San Jose, CA / Plano, TX",
         "url": "https://www.capitalonecareers.com/job/mclean/director-iam-cyber-product/1732/99867464256",
         "first_seen": "2026-10-23"
+      },
+      {
+        "title": "Manager, Information Security Office (ISO) Consultant",
+        "location": "McLean, VA / Plano, TX / Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/mclean/manager-information-security-office-iso-consultant/1732/99817713296",
+        "first_seen": "2026-10-26"
+      },
+      {
+        "title": "Senior Manager, Information Security Office (ISO) Consultant",
+        "location": "McLean, VA / Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/mclean/senior-manager-information-security-office-iso-consultant/1732/90833282736",
+        "first_seen": "2026-10-26"
+      },
+      {
+        "title": "Senior Lead Information Security Office Consultant",
+        "location": "McLean, VA / New York, NY / Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/mclean/senior-lead-information-security-office-consultant/1732/94857534400",
+        "first_seen": "2026-10-26"
+      },
+      {
+        "title": "Senior Information Security Office (ISO) Consultant, Cyber Risk",
+        "location": "Plano, TX / McLean, VA / Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/plano/senior-information-security-office-iso-consultant-cyber-risk/1732/93687683056",
+        "first_seen": "2026-10-26"
+      },
+      {
+        "title": "Senior Manager, GPN Information Security Office Consultant",
+        "location": "McLean, VA / Plano, TX / Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/mclean/senior-manager-gpn-information-security-office-consultant/1732/98847420432",
+        "first_seen": "2026-10-26"
       }
     ],
     "CarMax": [
