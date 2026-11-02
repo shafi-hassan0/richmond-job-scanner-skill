@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-02T17:05:00Z",
+  "last_run": "2026-11-02T21:08:30Z",
   "companies": {
     "CoStar Group": [
       {
@@ -337,6 +337,20 @@
         "location": "McLean, VA / Richmond, VA (posting explicitly lists Richmond; WebSearch fallback run, direct API access was blocked)",
         "url": "https://www.capitalonecareers.com/job/mclean/senior-cyber-risk-monitoring-analyst/1732/92847334224",
         "first_seen": "2026-11-02"
+      },
+      {
+        "title": "Distinguished Engineer - Network Connectivity",
+        "location": "Richmond, VA / McLean, VA / Plano, TX / Remote (WebSearch fallback run, direct API access was blocked)",
+        "url": "https://www.capitalonecareers.com/job/mclean/distinguished-engineer-network-connectivity/1732/88138128688",
+        "first_seen": "2026-11-02",
+        "note": "Senior IC network engineering role (enterprise network strategy/infrastructure automation, BGP/SD-WAN/Ansible/Python) - Capital One's 'Distinguished Engineer' title is its senior-most IC level, counted as a Lead/Principal-tier Network Engineer variant. Posting detail not fully accessible via WebSearch fallback - exact post date, certs not confirmed."
+      },
+      {
+        "title": "Distinguished Engineer - Cybersecurity (Session Management)",
+        "location": "Richmond, VA / McLean, VA / Plano, TX / San Jose, CA (WebSearch fallback run, direct API access was blocked)",
+        "url": "https://www.capitalonecareers.com/job/mclean/distinguished-engineer-cybersecurity-session-management/1732/94700974160",
+        "first_seen": "2026-11-02",
+        "note": "Senior IC cybersecurity engineering role (identity & privileged access management incl. non-human identities). Posting detail not fully accessible via WebSearch fallback - exact post date, certs not confirmed."
       }
     ],
     "CarMax": [
