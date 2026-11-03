@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-02T17:05:00Z",
+  "last_run": "2026-11-03T12:22:06Z",
   "companies": {
     "CoStar Group": [
       {
@@ -160,6 +160,13 @@
         "url": "https://careers.dominionenergy.com/job/glen-allen-engineering-technical-specialist-iii-ot-cyber-monitoring-va-23060/1406974900",
         "first_seen": "2026-10-30",
         "note": "Title doesn't use a standard Security/Cyber job-family name (Dominion's generic engineering-ladder title), but duties are OT/ICS cyber monitoring, threat analysis, NERC CIP/NIST CSF - counted as a Cybersecurity Analyst/Engineer variant. Posting date (per search) ~Jul 8, 2026 - not fresh, flagging per SKILL.md. WebSearch fallback run."
+      },
+      {
+        "title": "Senior Information Security Analyst",
+        "location": "Richmond, VA",
+        "url": "https://careers.dominionenergy.com/job/RICHMOND-Senior-Information-Security-Analyst-VA-23219/1279084700",
+        "first_seen": "2026-11-03",
+        "note": "WebSearch fallback run, direct API access was blocked."
       }
     ],
     "Honeywell": [
@@ -337,6 +344,27 @@
         "location": "McLean, VA / Richmond, VA (posting explicitly lists Richmond; WebSearch fallback run, direct API access was blocked)",
         "url": "https://www.capitalonecareers.com/job/mclean/senior-cyber-risk-monitoring-analyst/1732/92847334224",
         "first_seen": "2026-11-02"
+      },
+      {
+        "title": "Lead Cybersecurity Product Management (Network Security)",
+        "location": "McLean, VA / Richmond, VA / Riverwoods, IL / New York, NY / Plano, TX",
+        "url": "https://www.capitalonecareers.com/job/mclean/lead-cybersecurity-product-management-network-security/1732/100033485312",
+        "first_seen": "2026-11-03",
+        "note": "WebSearch fallback run, direct API access was blocked."
+      },
+      {
+        "title": "Lead Cyber Cryptographic Engineer",
+        "location": "Riverwoods, IL / Richmond, VA / San Jose, CA / Plano, TX / New York, NY / McLean, VA",
+        "url": "https://www.capitalonecareers.com/job/riverwoods/lead-cyber-cryptographic-engineer/1732/95424863344",
+        "first_seen": "2026-11-03",
+        "note": "WebSearch fallback run, direct API access was blocked."
+      },
+      {
+        "title": "Senior Director, Cyber Security Product Manager",
+        "location": "McLean, VA / Plano, TX / New York, NY / Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/mclean/senior-director-cyber-security-product-manager/1732/101415554624",
+        "first_seen": "2026-11-03",
+        "note": "WebSearch fallback run, direct API access was blocked."
       }
     ],
     "CarMax": [
