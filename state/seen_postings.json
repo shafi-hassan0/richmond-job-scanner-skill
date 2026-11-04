@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-03T16:10:10Z",
+  "last_run": "2026-11-04T16:09:25Z",
   "companies": {
     "CoStar Group": [
       {
@@ -160,6 +160,13 @@
         "url": "https://careers.dominionenergy.com/job/glen-allen-engineering-technical-specialist-iii-ot-cyber-monitoring-va-23060/1406974900",
         "first_seen": "2026-10-30",
         "note": "Title doesn't use a standard Security/Cyber job-family name (Dominion's generic engineering-ladder title), but duties are OT/ICS cyber monitoring, threat analysis, NERC CIP/NIST CSF - counted as a Cybersecurity Analyst/Engineer variant. Posting date (per search) ~Jul 8, 2026 - not fresh, flagging per SKILL.md. WebSearch fallback run."
+      },
+      {
+        "title": "Intern - Corporate Security (Insider Threat)",
+        "location": "Richmond, VA",
+        "url": "https://careers.dominionenergy.com/job/RICHMOND-Intern-Corporate-Security-(Insider-Threat)-VA-23219/1432173900/",
+        "first_seen": "2026-11-04",
+        "note": "Posting date conflicting in search snippets (Sep 21 vs Oct 20, 2026). WebSearch fallback run, direct API access was blocked. Also saw req 52548 'Engineer/Senior Engineer/Staff Engineer - SOC Operations Engineering' (Richmond, VA 23227) in the Cyber Security category listing, but excluded it: Dominion's 'SOC' there is the Electric Transmission System Operations Center (grid control), not a cybersecurity SOC - confirmed by its sibling postings (Electric Transmission SOC Outage Coordinator, Intern - ET SOC Services)."
       }
     ],
     "Honeywell": [
@@ -337,6 +344,13 @@
         "location": "McLean, VA / Richmond, VA (posting explicitly lists Richmond; WebSearch fallback run, direct API access was blocked)",
         "url": "https://www.capitalonecareers.com/job/mclean/senior-cyber-risk-monitoring-analyst/1732/92847334224",
         "first_seen": "2026-11-02"
+      },
+      {
+        "title": "Network Engineer 5 (DNS | DHCP | IPAM)",
+        "location": "Richmond, VA",
+        "url": "https://www.capitalonecareers.com/employment/richmond-virginia-united-states-engineering-jobs/234/29016/6252001-6254928-4781708/4",
+        "first_seen": "2026-11-04",
+        "note": "Requisition R1004768, posted 11/02/2026 per the Richmond engineering-jobs category listing. Could not resolve the individual job-detail URL via WebSearch fallback (direct API access was blocked) - linking to the Richmond category page instead; other same-titled 'Network Engineer 5' postings found in this search were Plano, TX / McLean, VA only and are a different req, excluded."
       }
     ],
     "CarMax": [
