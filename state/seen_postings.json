@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-05T16:09:30Z",
+  "last_run": "2026-11-05T21:10:03Z",
   "companies": {
     "CoStar Group": [
       {
@@ -337,6 +337,20 @@
         "location": "McLean, VA / Richmond, VA (posting explicitly lists Richmond; WebSearch fallback run, direct API access was blocked)",
         "url": "https://www.capitalonecareers.com/job/mclean/senior-cyber-risk-monitoring-analyst/1732/92847334224",
         "first_seen": "2026-11-02"
+      },
+      {
+        "title": "Network Engineer 5 (DNS | DHCP | IPAM)",
+        "location": "McLean, VA / Plano, TX / Richmond, VA (Richmond pay band $209,000-$238,500 listed; WebSearch fallback run, direct API access was blocked)",
+        "url": "https://www.capitalonecareers.com/job/mclean/network-engineer-5-dns-dhcp-ipam/1732/102772755936",
+        "first_seen": "2026-11-05",
+        "note": "Posted 2026-11-02 per search snippet. Sr. Manager level, DevNet role with on-call rotation. SIEM/firewall/cert detail not visible in WebSearch snippets."
+      },
+      {
+        "title": "Manager, Cyber Security - Information Security Office Consultant",
+        "location": "McLean, VA / Plano, TX / Richmond, VA / New York, NY (WebSearch fallback run, direct API access was blocked)",
+        "url": "https://www.capitalonecareers.com/job/mclean/manager-cyber-security-information-security-office-consultant/1732/101673225200",
+        "first_seen": "2026-11-05",
+        "note": "Posting date approximate (~October 2026); req number approximate (~R1003254) - not fully confirmed via WebSearch snippet. SIEM/firewall/cert detail not visible in snippets."
       }
     ],
     "CarMax": [
