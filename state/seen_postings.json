@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-05T16:09:30Z",
+  "last_run": "2026-11-09T12:26:30Z",
   "companies": {
     "CoStar Group": [
       {
@@ -160,6 +160,13 @@
         "url": "https://careers.dominionenergy.com/job/glen-allen-engineering-technical-specialist-iii-ot-cyber-monitoring-va-23060/1406974900",
         "first_seen": "2026-10-30",
         "note": "Title doesn't use a standard Security/Cyber job-family name (Dominion's generic engineering-ladder title), but duties are OT/ICS cyber monitoring, threat analysis, NERC CIP/NIST CSF - counted as a Cybersecurity Analyst/Engineer variant. Posting date (per search) ~Jul 8, 2026 - not fresh, flagging per SKILL.md. WebSearch fallback run."
+      },
+      {
+        "title": "Intern - Corporate Security (Insider Threat)",
+        "location": "Richmond, VA",
+        "url": "https://careers.dominionenergy.com/job/RICHMOND-Intern-Corporate-Security-(Insider-Threat)-VA-23219/1432173900/",
+        "first_seen": "2026-11-09",
+        "note": "Internship. Title sits under Dominion's 'Corporate Security' org rather than a Cyber Security job family - counted as an Insider Threat / data-risk monitoring variant (not a physical-guard role), but this is inferred since the program description is generic ('enterprise-wide risk mitigation'). WebSearch fallback run, direct API access was blocked."
       }
     ],
     "Honeywell": [
@@ -337,6 +344,20 @@
         "location": "McLean, VA / Richmond, VA (posting explicitly lists Richmond; WebSearch fallback run, direct API access was blocked)",
         "url": "https://www.capitalonecareers.com/job/mclean/senior-cyber-risk-monitoring-analyst/1732/92847334224",
         "first_seen": "2026-11-02"
+      },
+      {
+        "title": "Manager, Cyber Security (Information Security Office Consultant)",
+        "location": "McLean, VA / Plano, TX / Richmond, VA / New York, NY",
+        "url": "https://www.capitalonecareers.com/job/mclean/manager-cyber-security-information-security-office-consultant/1732/101673225200",
+        "first_seen": "2026-11-09",
+        "note": "Richmond listed among eligible locations per posting. Requires 5+ years applying cybersecurity frameworks (NIST CSF, MITRE ATT&CK, CMMC, FedRAMP). WebSearch fallback run, direct API access was blocked; full description not fully confirmed."
+      },
+      {
+        "title": "Network Engineer 5 (DNS | DHCP | IPAM)",
+        "location": "McLean, VA / Plano, TX / Richmond, VA",
+        "url": "https://www.capitalonecareers.com/job/mclean/network-engineer-5-dns-dhcp-ipam/1732/102772755936",
+        "first_seen": "2026-11-09",
+        "note": "Posted 2026-11-02 (req R1004768). Focus: DNS/DHCP/IPAM automation via APIs/CI-CD/IaC, on-call rotation. WebSearch fallback run, direct API access was blocked; full description not fully confirmed."
       }
     ],
     "CarMax": [
