@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-09T16:13:54Z",
+  "last_run": "2026-11-09T21:10:14Z",
   "companies": {
     "CoStar Group": [
       {
@@ -358,6 +358,20 @@
         "url": "https://www.capitalonecareers.com/job/mclean/network-engineer-5-dns-dhcp-ipam/1732/102772755936",
         "first_seen": "2026-11-09",
         "note": "Posted 2026-11-02 (req R1004768). Focus: DNS/DHCP/IPAM automation via APIs/CI-CD/IaC, on-call rotation. WebSearch fallback run, direct API access was blocked; full description not fully confirmed."
+      },
+      {
+        "title": "Risk Manager, Vulnerability Management (Cyber Technical)",
+        "location": "Richmond, VA / McLean, VA / Plano, TX / New York, NY",
+        "url": "https://www.capitalonecareers.com/job/richmond/risk-manager-vulnerability-management-cyber-technical/1732/93002529584",
+        "first_seen": "2026-11-09",
+        "note": "Posted 2026-03-20 per search snippet. Vulnerability management focus (container vulnerability scanning implied). WebSearch fallback run, direct API access was blocked; full description not independently fetched."
+      },
+      {
+        "title": "Cyber Technical Manager, Connectivity Security (Cloud Operations Resilience Engineering)",
+        "location": "Richmond, VA / McLean, VA / Plano, TX",
+        "url": "https://www.capitalonecareers.com/job/plano/cyber-technical-manager-connectivity-security-cloud-operations-resilience-engineering/1732/79881220400",
+        "first_seen": "2026-11-09",
+        "note": "Posted 2025-04-10 per search snippet - well over a year old, flagging per SKILL.md as not fresh (likely a long-standing/reposted req). Network security focus; certs mentioned in snippet: Palo Alto PCNSE/PCCSE/PCSAE, CISSP, AWS, CCSE (preferred). WebSearch fallback run, direct API access was blocked; full description not independently fetched."
       }
     ],
     "CarMax": [
